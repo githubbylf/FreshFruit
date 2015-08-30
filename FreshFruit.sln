@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.Configure", "Fre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.Data", "FreshFruit.Data\FreshFruit.Data.csproj", "{A6CE79E6-B43E-4BF4-A6FF-C5CE02D61298}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.CacheItems", "FreshFruit.CacheItems\FreshFruit.CacheItems.csproj", "{765D1817-C655-4AB6-9070-B5E1B2A875FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{A6CE79E6-B43E-4BF4-A6FF-C5CE02D61298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6CE79E6-B43E-4BF4-A6FF-C5CE02D61298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6CE79E6-B43E-4BF4-A6FF-C5CE02D61298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765D1817-C655-4AB6-9070-B5E1B2A875FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765D1817-C655-4AB6-9070-B5E1B2A875FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765D1817-C655-4AB6-9070-B5E1B2A875FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765D1817-C655-4AB6-9070-B5E1B2A875FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,5 +153,6 @@ Global
 		{0C665ABE-C5EC-4F93-84BB-FD65DB9B5A6A} = {44908A98-9B99-4789-BA7B-2BA7DD4FA650}
 		{811D050C-A32E-4CB2-AC2C-959E976ACE95} = {44908A98-9B99-4789-BA7B-2BA7DD4FA650}
 		{A6CE79E6-B43E-4BF4-A6FF-C5CE02D61298} = {0BA40831-27CC-4F1A-9460-098382AADB5F}
+		{765D1817-C655-4AB6-9070-B5E1B2A875FB} = {44908A98-9B99-4789-BA7B-2BA7DD4FA650}
 	EndGlobalSection
 EndGlobal

@@ -2,3 +2,4 @@ E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Release\FreshFruit.IBLL.dll
 E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Release\FreshFruit.IBLL.pdb
 E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Release\FreshFruit.IBLL.dll
 E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Release\FreshFruit.IBLL.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Release\FreshFruit.IBLL.csprojResolveAssemblyReference.cache

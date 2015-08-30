@@ -2,3 +2,4 @@ E:\New Project\FreshFruit\FreshFruit.IDAL\bin\Release\FreshFruit.IDAL.dll
 E:\New Project\FreshFruit\FreshFruit.IDAL\bin\Release\FreshFruit.IDAL.pdb
 E:\New Project\FreshFruit\FreshFruit.IDAL\obj\Release\FreshFruit.IDAL.dll
 E:\New Project\FreshFruit\FreshFruit.IDAL\obj\Release\FreshFruit.IDAL.pdb
+E:\New Project\FreshFruit\FreshFruit.IDAL\obj\Release\FreshFruit.IDAL.csprojResolveAssemblyReference.cache

@@ -2,3 +2,4 @@ E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.BLL.dll
 E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.BLL.pdb
 E:\New Project\FreshFruit\FreshFruit.BLL\obj\Release\FreshFruit.BLL.dll
 E:\New Project\FreshFruit\FreshFruit.BLL\obj\Release\FreshFruit.BLL.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\obj\Release\FreshFruit.BLL.csprojResolveAssemblyReference.cache

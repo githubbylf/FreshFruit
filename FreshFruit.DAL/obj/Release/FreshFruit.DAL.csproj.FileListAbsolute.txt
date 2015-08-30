@@ -7,3 +7,4 @@ E:\New Project\FreshFruit\FreshFruit.DAL\bin\Release\EntityFramework.SqlServer.x
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Release\zh-Hans\EntityFramework.resources.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\obj\Release\FreshFruit.DAL.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\obj\Release\FreshFruit.DAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\obj\Release\FreshFruit.DAL.csprojResolveAssemblyReference.cache
