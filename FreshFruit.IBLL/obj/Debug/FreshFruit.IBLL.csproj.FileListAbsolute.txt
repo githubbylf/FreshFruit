@@ -1,0 +1,9 @@
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.pdb
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.csprojResolveAssemblyReference.cache
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.pdb

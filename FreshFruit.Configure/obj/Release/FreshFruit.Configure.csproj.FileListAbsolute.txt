@@ -1,0 +1,4 @@
+E:\New Project\FreshFruit\FreshFruit.Configure\bin\Release\FreshFruit.Configure.dll
+E:\New Project\FreshFruit\FreshFruit.Configure\bin\Release\FreshFruit.Configure.pdb
+E:\New Project\FreshFruit\FreshFruit.Configure\obj\Release\FreshFruit.Configure.dll
+E:\New Project\FreshFruit\FreshFruit.Configure\obj\Release\FreshFruit.Configure.pdb

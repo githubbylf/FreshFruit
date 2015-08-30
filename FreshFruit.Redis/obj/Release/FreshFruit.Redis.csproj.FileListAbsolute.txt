@@ -1,0 +1,4 @@
+E:\New Project\FreshFruit\FreshFruit.Redis\bin\Release\FreshFruit.Redis.dll
+E:\New Project\FreshFruit\FreshFruit.Redis\bin\Release\FreshFruit.Redis.pdb
+E:\New Project\FreshFruit\FreshFruit.Redis\obj\Release\FreshFruit.Redis.dll
+E:\New Project\FreshFruit\FreshFruit.Redis\obj\Release\FreshFruit.Redis.pdb

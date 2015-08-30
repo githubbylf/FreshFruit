@@ -1,0 +1,8 @@
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Configure\bin\Debug\FreshFruit.Configure.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Configure\bin\Debug\FreshFruit.Configure.pdb
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Configure\obj\Debug\FreshFruit.Configure.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Configure\obj\Debug\FreshFruit.Configure.pdb
+E:\New Project\FreshFruit\FreshFruit.Configure\bin\Debug\FreshFruit.Configure.dll
+E:\New Project\FreshFruit\FreshFruit.Configure\bin\Debug\FreshFruit.Configure.pdb
+E:\New Project\FreshFruit\FreshFruit.Configure\obj\Debug\FreshFruit.Configure.dll
+E:\New Project\FreshFruit\FreshFruit.Configure\obj\Debug\FreshFruit.Configure.pdb

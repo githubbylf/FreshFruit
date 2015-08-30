@@ -1,0 +1,4 @@
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\bin\Release\FreshFruit.CacheItem.Memcached.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\bin\Release\FreshFruit.CacheItem.Memcached.pdb
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\obj\Release\FreshFruit.CacheItem.Memcached.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\obj\Release\FreshFruit.CacheItem.Memcached.pdb

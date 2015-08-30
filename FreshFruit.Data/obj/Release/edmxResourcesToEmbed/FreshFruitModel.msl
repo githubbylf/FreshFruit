@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="freshfruitModelStoreContainer" CdmEntityContainer="freshfruitEntities">
+    <EntitySetMapping Name="fruit_user">
+      <EntityTypeMapping TypeName="freshfruitModel.fruit_user">
+        <MappingFragment StoreEntitySet="fruit_user">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="user_sex" ColumnName="user_sex" />
+          <ScalarProperty Name="user_birthday" ColumnName="user_birthday" />
+          <ScalarProperty Name="user_reg_time" ColumnName="user_reg_time" />
+          <ScalarProperty Name="user_recommend_uid" ColumnName="user_recommend_uid" />
+          <ScalarProperty Name="user_email_time" ColumnName="user_email_time" />
+          <ScalarProperty Name="Is_email_validated" ColumnName="Is_email_validated" />
+          <ScalarProperty Name="Is_delete" ColumnName="Is_delete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fruit_user_address">
+      <EntityTypeMapping TypeName="freshfruitModel.fruit_user_address">
+        <MappingFragment StoreEntitySet="fruit_user_address">
+          <ScalarProperty Name="Address_id" ColumnName="Address_id" />
+          <ScalarProperty Name="Address_name" ColumnName="Address_name" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="Consignee" ColumnName="Consignee" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="District" ColumnName="District" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Zipcode" ColumnName="Zipcode" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Sign_building" ColumnName="Sign_building" />
+          <ScalarProperty Name="Best_time" ColumnName="Best_time" />
+          <ScalarProperty Name="IsEncryption" ColumnName="IsEncryption" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fruit_user_log">
+      <EntityTypeMapping TypeName="freshfruitModel.fruit_user_log">
+        <MappingFragment StoreEntitySet="fruit_user_log">
+          <ScalarProperty Name="login_id" ColumnName="login_id" />
+          <ScalarProperty Name="login_time" ColumnName="login_time" />
+          <ScalarProperty Name="login_ip" ColumnName="login_ip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fruit_user_points">
+      <EntityTypeMapping TypeName="freshfruitModel.fruit_user_points">
+        <MappingFragment StoreEntitySet="fruit_user_points">
+          <ScalarProperty Name="points_id" ColumnName="points_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="points_pay" ColumnName="points_pay" />
+          <ScalarProperty Name="points_rank" ColumnName="points_rank" />
+          <ScalarProperty Name="points_total" ColumnName="points_total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

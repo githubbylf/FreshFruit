@@ -1,0 +1,14 @@
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.DAL.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.DAL.pdb
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.DAL.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.DAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.xml
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.pdb

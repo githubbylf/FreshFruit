@@ -1,0 +1,8 @@
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.InnerCaching\bin\Debug\FreshFruit.CacheItem.InnerCaching.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.InnerCaching\bin\Debug\FreshFruit.CacheItem.InnerCaching.pdb
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.InnerCaching\obj\Debug\FreshFruit.CacheItem.InnerCaching.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.InnerCaching\obj\Debug\FreshFruit.CacheItem.InnerCaching.pdb
+E:\New Project\FreshFruit\FreshFruit.CacheItem.InnerCaching\bin\Debug\FreshFruit.CacheItem.InnerCaching.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItem.InnerCaching\bin\Debug\FreshFruit.CacheItem.InnerCaching.pdb
+E:\New Project\FreshFruit\FreshFruit.CacheItem.InnerCaching\obj\Debug\FreshFruit.CacheItem.InnerCaching.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItem.InnerCaching\obj\Debug\FreshFruit.CacheItem.InnerCaching.pdb

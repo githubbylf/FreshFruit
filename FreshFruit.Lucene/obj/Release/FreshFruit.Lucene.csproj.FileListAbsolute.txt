@@ -1,0 +1,4 @@
+E:\New Project\FreshFruit\FreshFruit.Lucene\bin\Release\FreshFruit.Lucene.dll
+E:\New Project\FreshFruit\FreshFruit.Lucene\bin\Release\FreshFruit.Lucene.pdb
+E:\New Project\FreshFruit\FreshFruit.Lucene\obj\Release\FreshFruit.Lucene.dll
+E:\New Project\FreshFruit\FreshFruit.Lucene\obj\Release\FreshFruit.Lucene.pdb

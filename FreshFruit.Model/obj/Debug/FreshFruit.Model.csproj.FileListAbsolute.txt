@@ -1,0 +1,8 @@
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Model\bin\Debug\FreshFruit.Model.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Model\bin\Debug\FreshFruit.Model.pdb
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Model\obj\Debug\FreshFruit.Model.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Model\obj\Debug\FreshFruit.Model.pdb
+E:\New Project\FreshFruit\FreshFruit.Model\bin\Debug\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.Model\bin\Debug\FreshFruit.Model.pdb
+E:\New Project\FreshFruit\FreshFruit.Model\obj\Debug\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.Model\obj\Debug\FreshFruit.Model.pdb

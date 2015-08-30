@@ -1,0 +1,4 @@
+E:\New Project\FreshFruit\FreshFruit.DataContract\bin\Release\FreshFruit.DataContract.dll
+E:\New Project\FreshFruit\FreshFruit.DataContract\bin\Release\FreshFruit.DataContract.pdb
+E:\New Project\FreshFruit\FreshFruit.DataContract\obj\Release\FreshFruit.DataContract.dll
+E:\New Project\FreshFruit\FreshFruit.DataContract\obj\Release\FreshFruit.DataContract.pdb

@@ -1,0 +1,11 @@
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\FreshFruit.Data.dll.config
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\FreshFruit.Data.dll
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\FreshFruit.Data.pdb
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\EntityFramework.dll
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\EntityFramework.xml
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.Data\obj\Debug\FreshFruit.Data.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.Data\obj\Debug\FreshFruit.Data.dll
+E:\New Project\FreshFruit\FreshFruit.Data\obj\Debug\FreshFruit.Data.pdb

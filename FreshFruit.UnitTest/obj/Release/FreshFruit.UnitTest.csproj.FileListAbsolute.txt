@@ -1,0 +1,5 @@
+E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Release\FreshFruit.UnitTest.dll
+E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Release\FreshFruit.UnitTest.pdb
+E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Release\FreshFruit.UnitTest.dll
+E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Release\FreshFruit.UnitTest.pdb
+E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Release\FreshFruit.UnitTest.csprojResolveAssemblyReference.cache

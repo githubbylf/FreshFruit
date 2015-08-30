@@ -1,0 +1,9 @@
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Redis\bin\Debug\FreshFruit.Redis.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Redis\bin\Debug\FreshFruit.Redis.pdb
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Redis\obj\Debug\FreshFruit.Redis.csprojResolveAssemblyReference.cache
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Redis\obj\Debug\FreshFruit.Redis.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Redis\obj\Debug\FreshFruit.Redis.pdb
+E:\New Project\FreshFruit\FreshFruit.Redis\bin\Debug\FreshFruit.Redis.dll
+E:\New Project\FreshFruit\FreshFruit.Redis\bin\Debug\FreshFruit.Redis.pdb
+E:\New Project\FreshFruit\FreshFruit.Redis\obj\Debug\FreshFruit.Redis.dll
+E:\New Project\FreshFruit\FreshFruit.Redis\obj\Debug\FreshFruit.Redis.pdb

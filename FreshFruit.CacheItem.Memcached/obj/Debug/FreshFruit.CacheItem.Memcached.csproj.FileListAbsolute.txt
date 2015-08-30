@@ -1,0 +1,8 @@
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.Memcached\bin\Debug\FreshFruit.CacheItem.Memcached.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.Memcached\bin\Debug\FreshFruit.CacheItem.Memcached.pdb
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.Memcached\obj\Debug\FreshFruit.CacheItem.Memcached.dll
+c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.CacheItem.Memcached\obj\Debug\FreshFruit.CacheItem.Memcached.pdb
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\bin\Debug\FreshFruit.CacheItem.Memcached.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\bin\Debug\FreshFruit.CacheItem.Memcached.pdb
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\obj\Debug\FreshFruit.CacheItem.Memcached.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItem.Memcached\obj\Debug\FreshFruit.CacheItem.Memcached.pdb
