@@ -47,14 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CacheItems\Cache_Local\LocalCacheHelper.cs" />
     <Compile Include="Item\Cache_local\LocalCacheHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CacheItems\Cache_Memcached\" />
-    <Folder Include="CacheItems\Cache_Redis\" />
     <Folder Include="Interface\" />
+    <Folder Include="Item\Cache_Memcached\" />
+    <Folder Include="Item\Cache_Redis\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
