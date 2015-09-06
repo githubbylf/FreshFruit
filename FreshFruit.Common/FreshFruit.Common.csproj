@@ -47,6 +47,7 @@
     <Compile Include="ToolsUtils\ChineseToSpell.cs" />
     <Compile Include="ToolsUtils\CommonUtils.cs" />
     <Compile Include="ToolsUtils\DateUtils.cs" />
+    <Compile Include="ToolsUtils\HexUtils.cs" />
     <Compile Include="ToolsUtils\LogUtils.cs" />
     <Compile Include="ToolsUtils\MailUtils.cs" />
     <Compile Include="ToolsUtils\StringUtils.cs" />
