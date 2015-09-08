@@ -1,5 +1,4 @@
 E:\New Project\FreshFruit\FreshFruit.CacheItems\bin\Release\FreshFruit.CacheItems.dll
 E:\New Project\FreshFruit\FreshFruit.CacheItems\bin\Release\FreshFruit.CacheItems.pdb
-E:\New Project\FreshFruit\FreshFruit.CacheItems\obj\Release\FreshFruit.CacheItems.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.CacheItems\obj\Release\FreshFruit.CacheItems.dll
 E:\New Project\FreshFruit\FreshFruit.CacheItems\obj\Release\FreshFruit.CacheItems.pdb

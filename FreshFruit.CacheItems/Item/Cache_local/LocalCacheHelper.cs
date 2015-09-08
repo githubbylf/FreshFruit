@@ -26,59 +26,59 @@ namespace FreshFruit.CacheItems.Item.Cache_local
         /// <summary>
         /// 获取数据缓存
         /// </summary>
-        /// <param name="cacheKey">键</param>
-        public static object Get(string cacheKey)
+        /// <param name="key">键</param>
+        public static object Get(string key)
         {
             Cache objCache = HttpRuntime.Cache;
-            return objCache[cacheKey];
+            return objCache[key];
         }
 
         /// <summary>
         /// 设置数据缓存
         /// </summary>
-        public static void Insert(string cacheKey, object objObject)
+        public static void Set(string key, object value)
         {
             Cache objCache = HttpRuntime.Cache;
-            objCache.Insert(cacheKey, objObject);
+            objCache.Insert(key, value);
         }
 
         /// <summary>
         /// 设置数据缓存
         /// </summary>
-        public static void Insert(string cacheKey, object objObject, TimeSpan timeout)
+        public static void Set(string key, object value, TimeSpan timeout)
         {
             Cache objCache = HttpRuntime.Cache;
-            objCache.Insert(cacheKey, objObject, null, DateTime.MaxValue, timeout, CacheItemPriority.NotRemovable, null);
+            objCache.Insert(key, value, null, DateTime.MaxValue, timeout, CacheItemPriority.NotRemovable, null);
         }
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="cacheKey"></param>
-        /// <param name="objObject"></param>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
         /// <param name="absoluteExpiration"></param>
-        public static void Insert(string cacheKey, object objObject, DateTime absoluteExpiration)
+        public static void Set(string key, object value, DateTime absoluteExpiration)
         {
             Cache objCache = HttpRuntime.Cache;
-            objCache.Insert(cacheKey, objObject, null, absoluteExpiration, TimeSpan.Zero, CacheItemPriority.NotRemovable, null);
+            objCache.Insert(key, value, null, absoluteExpiration, TimeSpan.Zero, CacheItemPriority.NotRemovable, null);
         }
 
         /// <summary>
         /// 设置数据缓存
         /// </summary>
-        public static void Insert(string cacheKey, object objObject, DateTime absoluteExpiration, TimeSpan slidingExpiration)
+        public static void Set(string key, object value, DateTime absoluteExpiration, TimeSpan slidingExpiration)
         {
             Cache objCache = HttpRuntime.Cache;
-            objCache.Insert(cacheKey, objObject, null, absoluteExpiration, slidingExpiration);
+            objCache.Insert(key, value, null, absoluteExpiration, slidingExpiration);
         }
 
         /// <summary>
         /// 移除指定数据缓存
         /// </summary>
-        public static void Remove(string cacheKey)
+        public static void Remove(string key)
         {
             Cache cache = HttpRuntime.Cache;
-            cache.Remove(cacheKey);
+            cache.Remove(key);
         }
 
         /// <summary>
