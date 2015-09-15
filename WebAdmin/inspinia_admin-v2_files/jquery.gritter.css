@@ -1,0 +1,66 @@
+#gritter-notice-wrapper {
+	top: 40px; width: 301px; right: 20px; position: fixed; z-index: 9999; animation-name: bounceIn; animation-duration: 1s; animation-fill-mode: both; -webkit-animation-duration: 1s; -webkit-animation-fill-mode: both; -webkit-animation-name: bounceIn;
+}
+.top-left#gritter-notice-wrapper {
+	left: 20px; right: auto;
+}
+.bottom-right#gritter-notice-wrapper {
+	left: auto; top: auto; right: 20px; bottom: 20px;
+}
+.bottom-left#gritter-notice-wrapper {
+	left: 20px; top: auto; right: auto; bottom: 20px;
+}
+.gritter-item-wrapper {
+	background: url("images/ie-spacer.gif"); margin: 0px 0px 10px; position: relative;
+}
+.hover .gritter-top {
+	
+}
+.gritter-bottom {
+	margin: 0px; height: 8px;
+}
+.gritter-item {
+	padding: 10px 11px; border-radius: 4px; color: rgb(238, 238, 238); font-size: 11px; display: block; background-color: rgba(39, 58, 75, 0.8);
+}
+.hover .gritter-item {
+	background-position: right -40px;
+}
+.gritter-item p {
+	margin: 0px; padding: 0px; -ms-word-wrap: break-word;
+}
+.gritter-item a:hover {
+	color: rgb(248, 172, 89); text-decoration: underline;
+}
+.gritter-close {
+	background: url("images/gritter.png") no-repeat left top; top: 5px; width: 30px; height: 30px; right: 3px; text-indent: -9999em; display: none; position: absolute; cursor: pointer;
+}
+.gritter-title {
+	padding: 0px 0px 7px; text-transform: uppercase; font-size: 12px; font-weight: bold; display: block;
+}
+.gritter-image {
+	width: 48px; height: 48px; float: left;
+}
+.gritter-with-image {
+	padding: 0px;
+}
+.gritter-without-image {
+	padding: 0px;
+}
+.gritter-with-image {
+	width: 220px; float: right;
+}
+.gritter-light .gritter-item {
+	color: rgb(34, 34, 34); background-image: url("images/gritter-light.png");
+}
+.gritter-light .gritter-bottom {
+	color: rgb(34, 34, 34); background-image: url("images/gritter-light.png");
+}
+.gritter-light .gritter-top {
+	color: rgb(34, 34, 34); background-image: url("images/gritter-light.png");
+}
+.gritter-light .gritter-close {
+	color: rgb(34, 34, 34); background-image: url("images/gritter-light.png");
+}
+.gritter-light .gritter-title {
+	text-shadow: none;
+}

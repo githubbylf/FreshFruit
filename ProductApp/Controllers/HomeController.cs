@@ -10,9 +10,25 @@ namespace ProductApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Fresh Fruit";
 
             return View();
         }
+
+        public ActionResult IndexEntrance() 
+        {
+            return View();
+        }
+
+        public ActionResult WechatEntrance()
+        {
+            return View();
+        }
+
+        public ActionResult AdminEntrance()
+        {
+            return View();
+        }
+
     }
 }

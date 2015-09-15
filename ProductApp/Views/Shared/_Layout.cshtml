@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("应用程序名称", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Fresh Fruit", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -29,10 +29,15 @@
         </div>
     </div>
     <div class="container body-content">
+
+        @*RenderBody()在模板页中使用表示内容页在模板中的位置。当创建具有模板页的内容页的时候，内容页就呈现在模板页中@RenderBody()所在的位置*@
         @RenderBody()
+
+        @*RenderSection用于在模板布局中定义一个区域，在内容页可以定义一些内容来填充这个区域，例如内容页中引用的JS文件，可以填充到模板页的section位置。每个内容页的单独一些信息，可以在模板页中这个区域显示。*@
+        @RenderSection("IndexContent", required: false)
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+            <p>&copy; @DateTime.Now.Year - 京ICP证030173号</p>
         </footer>
     </div>
 
