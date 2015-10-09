@@ -10,7 +10,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using ASP.NET_MVC5_Bootstrap3_3_1_LESS.Models;
 
-namespace ASP.NET_MVC5_Bootstrap3_3_1_LESS.Controllers
+namespace FreshFruit.WebSites.Official
 {
     [Authorize]
     public class AccountController : Controller

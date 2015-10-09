@@ -7,3 +7,6 @@ E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.dll
 E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.pdb
 E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.dll
 E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.pdb
+E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.csprojResolveAssemblyReference.cache

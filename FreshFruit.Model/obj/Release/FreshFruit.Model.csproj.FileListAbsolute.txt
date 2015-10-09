@@ -2,4 +2,3 @@ E:\New Project\FreshFruit\FreshFruit.Model\bin\Release\FreshFruit.Model.dll
 E:\New Project\FreshFruit\FreshFruit.Model\bin\Release\FreshFruit.Model.pdb
 E:\New Project\FreshFruit\FreshFruit.Model\obj\Release\FreshFruit.Model.dll
 E:\New Project\FreshFruit\FreshFruit.Model\obj\Release\FreshFruit.Model.pdb
-E:\New Project\FreshFruit\FreshFruit.Model\obj\Release\FreshFruit.Model.csprojResolveAssemblyReference.cache

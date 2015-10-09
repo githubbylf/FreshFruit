@@ -56,13 +56,12 @@
   <EntityType Name="fruit_user_points">
     <Key>
       <PropertyRef Name="points_id" />
-      <PropertyRef Name="user_id" />
     </Key>
     <Property Name="points_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="user_id" Type="int" Nullable="false" />
-    <Property Name="points_pay" Type="int" />
-    <Property Name="points_rank" Type="int" />
-    <Property Name="points_total" Type="int" />
+    <Property Name="points_pay" Type="int" Nullable="false" />
+    <Property Name="points_rank" Type="int" Nullable="false" />
+    <Property Name="points_total" Type="int" Nullable="false" />
   </EntityType>
   <EntityContainer Name="freshfruitModelStoreContainer">
     <EntitySet Name="fruit_user" EntityType="Self.fruit_user" Schema="freshfruit" store:Type="Tables" />

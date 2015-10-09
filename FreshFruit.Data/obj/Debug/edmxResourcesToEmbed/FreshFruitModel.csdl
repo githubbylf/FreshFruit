@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="freshfruitModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="freshfruitEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="fruit_user" EntityType="freshfruitModel.fruit_user" />
+    <EntitySet Name="fruit_user_address" EntityType="freshfruitModel.fruit_user_address" />
+    <EntitySet Name="fruit_user_log" EntityType="freshfruitModel.fruit_user_log" />
+    <EntitySet Name="fruit_user_points" EntityType="freshfruitModel.fruit_user_points" />
+  </EntityContainer>
   <EntityType Name="fruit_user">
     <Key>
       <PropertyRef Name="user_id" />
@@ -18,20 +24,20 @@
       <PropertyRef Name="Address_id" />
     </Key>
     <Property Name="Address_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Address_name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address_name" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
     <Property Name="User_id" Type="Int32" Nullable="false" />
-    <Property Name="Consignee" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Email" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Consignee" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
     <Property Name="Country" Type="Int16" Nullable="false" />
     <Property Name="Province" Type="Int16" Nullable="false" />
     <Property Name="City" Type="Int16" Nullable="false" />
     <Property Name="District" Type="Int16" Nullable="false" />
-    <Property Name="Address" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Zipcode" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Tel" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Mobile" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Sign_building" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Best_time" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="Zipcode" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="Tel" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="Sign_building" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="Best_time" Type="String" Nullable="false" MaxLength="1073741823" FixedLength="false" Unicode="false" />
     <Property Name="IsEncryption" Type="Boolean" Nullable="false" />
   </EntityType>
   <EntityType Name="fruit_user_log">
@@ -40,23 +46,16 @@
     </Key>
     <Property Name="login_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="login_time" Type="Int32" Nullable="false" />
-    <Property Name="login_ip" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="login_ip" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="fruit_user_points">
     <Key>
       <PropertyRef Name="points_id" />
-      <PropertyRef Name="user_id" />
     </Key>
     <Property Name="points_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="user_id" Type="Int32" Nullable="false" />
-    <Property Name="points_pay" Type="Int32" />
-    <Property Name="points_rank" Type="Int32" />
-    <Property Name="points_total" Type="Int32" />
+    <Property Name="points_pay" Type="Int32" Nullable="false" />
+    <Property Name="points_rank" Type="Int32" Nullable="false" />
+    <Property Name="points_total" Type="Int32" Nullable="false" />
   </EntityType>
-  <EntityContainer Name="freshfruitEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="fruit_user" EntityType="Self.fruit_user" />
-    <EntitySet Name="fruit_user_address" EntityType="Self.fruit_user_address" />
-    <EntitySet Name="fruit_user_log" EntityType="Self.fruit_user_log" />
-    <EntitySet Name="fruit_user_points" EntityType="Self.fruit_user_points" />
-  </EntityContainer>
 </Schema>

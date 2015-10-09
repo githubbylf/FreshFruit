@@ -8,4 +8,3 @@ E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\EntityFramework.SqlServer.
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\zh-Hans\EntityFramework.resources.dll
 E:\New Project\FreshFruit\FreshFruit.Data\obj\Release\FreshFruit.Data.dll
 E:\New Project\FreshFruit\FreshFruit.Data\obj\Release\FreshFruit.Data.pdb
-E:\New Project\FreshFruit\FreshFruit.Data\obj\Release\FreshFruit.Data.csprojResolveAssemblyReference.cache

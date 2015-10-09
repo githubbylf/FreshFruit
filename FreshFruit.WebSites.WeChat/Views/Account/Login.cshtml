@@ -1,58 +1,171 @@
-﻿@model ASP.NET_MVC5_Bootstrap3_3_1_LESS.Models.LoginViewModel
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0080)https://passport.jd.com/new/login.aspx?ReturnUrl=http%3A%2F%2Fwww.jd.com%2F#none -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 
-@{
-    ViewBag.Title = "Log in";
-}
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>鲜果-欢迎登录</title>
+    <link rel="stylesheet" type="text/css" href="./css/base.css" media="all">
+    <script type="text/javascript" async="" src="./js/wl.js"></script>
+    <script type="text/javascript" src="./js/jquery-1.6.4.js"></script>
 
-<h2>@ViewBag.Title.</h2>
-<div class="row">
-    <div class="col-md-8">
-        <section id="loginForm">
-            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-            {
-                @Html.AntiForgeryToken()
-                <h4>Use a local account to log in.</h4>
-                <hr />
-                @Html.ValidationSummary(true)
-                <div class="form-group">
-                    @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
-                    <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(m => m.UserName)
-                    </div>
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
-                    <div class="col-md-10">
-                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(m => m.Password)
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <div class="checkbox">
-                            @Html.CheckBoxFor(m => m.RememberMe)
-                            @Html.LabelFor(m => m.RememberMe)
+    <link charset="utf-8" rel="stylesheet" href="./css/tips.css">
+</head>
+
+<link type="text/css" rel="stylesheet" href="./css/common.css" source="widget">
+<link type="text/css" rel="stylesheet" href="./widget/login-banner/login-banner.css" source="widget">
+<link type="text/css" rel="stylesheet" href="./widget/login-form/login-form.css" source="widget">
+<link type="text/css" rel="stylesheet" href="./widget/safe-step/safe-step.css" source="widget">
+<script type="text/javascript" src="./js/login.pge.js"></script>
+<script type="text/javascript" src="./js/login.pge.init.js"></script>
+
+<body>
+    <!-- SDK 登录 -->
+    <div class="w">
+        <div id="logo"><a href="#" clstag="pageclick|keycount|20150112ABD|45"><img src="./img/logo-201305-b.png" alt="鲜果" width="170" height="60"></a><b></b></div>
+    </div>
+    <div id="content">
+        <div class="login-wrap">
+            <div class="w">
+                <div class="login-form">
+                    <div class="login-box">
+                        <div class="mt">
+                            <h1>鲜果会员</h1>
+                            <div class="extra-r">
+                                <div class="regist-link"><a href="#" target="_blank" clstag="pageclick|keycount|20150112ABD|1"><b></b>立即注册</a></div>
+                            </div>
+                        </div>
+                        <div class="msg-wrap">
+                            <div class="msg-warn"><b></b>公共场所不建议自动登录，以防账号丢失</div>
+                            <div class="msg-error hide" style="display: none;"><b></b></div>
+                        </div>
+                        <div class="mc">
+                            <div class="form">
+                                <form id="formlogin" method="post" onsubmit="return false;">
+                                    <input type="hidden" id="uuid" name="uuid" value="ffdcc213-4f6f-4466-9456-c5250e4daacc">
+                                    <input type="hidden" name="machineNet" id="machineNet" value="" class="hide">
+                                    <input type="hidden" name="machineCpu" id="machineCpu" value="" class="hide">
+                                    <input type="hidden" name="machineDisk" id="machineDisk" value="" class="hide">
+                                    <input type="hidden" name="XlIfOLLtBg" value="ZIhVM">
+                                    <div class="item item-fore1">
+                                        <label for="loginname" class="login-label name-label"></label>
+                                        <input id="loginname" type="text" class="itxt" name="loginname" tabindex="1" autocomplete="off" placeholder="邮箱/用户名/已验证手机">
+                                        <span class="clear-btn"></span>
+                                    </div>
+                                    <div id="entry" class="item item-fore2">
+                                        <label class="login-label pwd-label" for="nloginpwd"></label>
+                                        <label id="sloginpwd" style="display: none;">
+                                            <script type="text/javascript">pgeditor.generate()</script><span id="_ocx_password_down" class="text_pge" style="text-align:center;"><a href="https://passport.jd.com/new/login.aspx?ReturnUrl=http%3A%2F%2Fwww.jd.com%2F#JDedit.exe">请刷新页面或安装安全控件</a></span>
+                                        </label>
+                                        <input type="password" id="nloginpwd" name="nloginpwd" class="itxt itxt-error" tabindex="2" autocomplete="off" placeholder="密码">
+                                        <input type="hidden" name="loginpwd" id="loginpwd" value="" class="hide">
+                                        <span class="clear-btn"></span>
+                                        <span class="capslock" style="display: none;"><b></b>大小写锁定已打开</span>
+                                    </div>
+                                    <div class="item item-fore3">
+                                        <div class="safe">
+                                            <span>
+                                                <input id="autoLogin" name="chkRememberMe" type="checkbox" class="jdcheckbox" tabindex="3" clstag="pageclick|keycount|20150112ABD|6">
+                                                <label for="">自动登录</label>
+                                            </span>
+                                            <span>
+                                                <input id="chkOpenCtrl" type="checkbox" name="chkOpenCtrl" class="jdcheckbox safe-chk" tabindex="4" clstag="pageclick|keycount|20150112ABD|7">
+                                                <label data-tips="安全控件可提高账户安全性，加密保护您的密码。" id="jdsafe">安全控件登录</label>
+                                            </span>
+                                            <span class="forget-pw-safe">
+                                                <a href="#" class="" target="_blank" clstag="pageclick|keycount|20150112ABD|8">忘记密码?</a>
+                                            </span>
+                                        </div>
+                                        <div class="updata" id="updata" style="display:none;">安全控件升级了!<a href="javascript:void(0);" class="up-two">立即更新</a> <a class="up-one" href="javascript:void(0);" onclick="$(&#39;#updata&#39;).hide();"></a></div>
+                                    </div>
+
+                                    <div id="o-authcode" class="item item-vcode item-fore4  hide ">
+                                        <input id="authcode" type="text" class="itxt itxt02" name="authcode" tabindex="5">
+                                        <img id="JD_Verification1" class="verify-code" src2="https://authcode.jd.com/verify/image?a=1&amp;acid=ffdcc213-4f6f-4466-9456-c5250e4daacc&amp;uid=ffdcc213-4f6f-4466-9456-c5250e4daacc" onclick="this.src= document.location.protocol +&#39;//authcode.jd.com/verify/image?a=1&amp;acid=ffdcc213-4f6f-4466-9456-c5250e4daacc&amp;uid=ffdcc213-4f6f-4466-9456-c5250e4daacc&amp;yys=&#39;+new Date().getTime();$(&#39;#authcode&#39;).val(&#39;&#39;);">
+                                        <a href="javascript:void(0)" onclick="">看不清楚换一张</a>
+                                    </div>
+                                    <div class="item item-fore5">
+                                        <div class="login-btn">
+                                            <a href="javascript:;" class="btn-img btn-entry" id="loginsubmit" tabindex="6" clstag="pageclick|keycount|20150112ABD|2">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="coagent">
+                                <h5>使用合作网站账号登录鲜果：</h5>
+                                <ul>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="">京东钱包</a>
+                                        <span class="line">|</span>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="">QQ</a>
+                                        <span class="line">|</span>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="">微信</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Log in" class="btn btn-default" />
+                    <div class="qrcode-login">
+                        <div class="mc">
+                            <div class="qrcode-desc"><h2>用鲜果微信 <span class="ml5">扫码安全登录</span></h2></div>
+                            <div class="qrcode-error">
+                                <b></b>
+                                <h6>登录失败</h6>
+                                请刷新二维码后重新扫描
+                            </div>
+                            <div class="qrcode-main">
+                                <div class="qrcode-img">
+                                    <img src="./img/blank.gif" alt=""><div class="qrcode-error02 hide" id="J-qrcoderror">							<a href="#">								<span class="error-icon"></span>								<div class="txt">网络开小差咯<span class="ml10">刷新二维码</span></div>							</a>						</div>
+                                </div>
+                                <div class="qrcode-panel">
+                                    <ul>
+                                        <li class="fore1">
+                                            <a href="#">刷新二维码</a>
+                                        </li>
+                                        <li><a href="#">使用帮助</a></li>
+                                    </ul>
+                                    <div class="qrcode-tips">
+                                        <span>扫描不上，版本过低？</span>
+                                        <div class="triangle-border tb-border"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <a href="https://passport.jd.com/new/login.aspx?ReturnUrl=http%3A%2F%2Fwww.jd.com%2F#nogo" class="qrcode-target btn-2qrcode" clstag="pageclick|keycount|20150112ABD_201505135|1">扫码登录</a>
                 </div>
-                <p>
-                    @Html.ActionLink("Register", "Register") if you don't have a local account.
-                </p>
+            </div>
+            <div class="login-banner" style="background-color: #f6ad2d">		              <div class="w">			         <div id="banner-bg" clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: url(https://safeimg.jd.com/da/jfs/t1750/147/15686066/101561/5c493d18/55cade28N9477e22d.jpg) 0px 0px no-repeat;background-color: #f6ad2d"></div>		              </div>		           </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/login2015.js"></script>
+    <script type="text/javascript" src="./js/base.js"></script>
+    <script type="text/javascript" src="./js/login.index.js" source="widget"></script>
+    <script type="text/javascript">	~function () {		var data = [						{			  src:"https://safeimg.jd.com/da/jfs/t1708/325/12586143/99316/9a01733f/55caddadNeb93c914.jpg",			  bgColor:"#1d90bf",                          weight: "4"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t1750/147/15686066/101561/5c493d18/55cade28N9477e22d.jpg",			  bgColor:"#f6ad2d",                          weight: "4"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t1291/70/400648492/118338/913c53e4/55701f5dNce5323f3.jpg",			  bgColor:"#e0243d",                          weight: "0"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t1816/268/1058498123/41512/f35d064c/55e030bdN7c9a4c19.png",			  bgColor:"#F94747",                          weight: "4"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t1468/83/1361485819/90262/367c331/55c9587aNe5c103cc.jpg",			  bgColor:"#fef184",                          weight: "0"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t925/194/900572056/97720/54aeeaf1/556273d5N1c152901.jpg",			  bgColor:"#e93854",                          weight: "0"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t1786/325/65332357/30912/83669a73/55cc0292N42ecd446.png",			  bgColor:"#ff2f46",                          weight: "4"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t1150/142/867607095/212956/6a07c492/5551a110Nf4593398.jpg",			  bgColor:"#ee2743",                          weight: "4"			}						,			{			  src:"https://safeimg.jd.com/da/jfs/t1774/224/819366149/87878/acd68f4a/55dc018fNb118bae4.jpg",			  bgColor:"#d94f4d",                          weight: "0"			}			];						         var getRandom = function (arr) {			var _temp = 0, _random = 0, _weight, _newArr = [];						for (var i = 0; i < arr.length; i++) {				_weight = arr[i].weight ? parseInt(arr[i].weight) : 1;				_newArr[i] = [];				_newArr[i].push(_temp);				_temp += _weight;				_newArr[i].push(_temp);			}						_random = Math.ceil(_temp * Math.random());						for (var i = 0; i< _newArr.length; i++){				if(_random > _newArr[i][0] && _random <= _newArr[i][1]){					return arr[i];				}			}			};				var tpl = '<div class="login-banner" style="background-color: {bgColor}">\		              <div class="w">\			         <div id="banner-bg"  clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: url({imgURI}) 0px 0px no-repeat;background-color: {bgColor}"></div>\		              </div>\		           </div>';							var bgData = getRandom(data);		var bannerHtml = tpl.replace(/{bgColor}/g, bgData.bgColor).replace(/{imgURI}/g, bgData.src);				$('.login-banner').replaceWith(bannerHtml);	}();</script>
+    <script type="text/javascript">
+        (function () {
+            var ja = document.createElement('script');
+            ja.type = 'text/javascript';
+            ja.async = true;
+            ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : 'http://csc') + '.jd.com/wl.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ja, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        $(function(){
+            if(!$('#autoLogin:checked').length){
+                $('#autoLogin').prop("checked",'true').trigger("click").prop("checked",'true');
             }
-        </section>
-    </div>
-    <div class="col-md-4">
-        <section id="socialLoginForm">
-            @Html.Partial("_ExternalLoginsListPartial", new { Action = "ExternalLogin", ReturnUrl = ViewBag.ReturnUrl })
-        </section>
-    </div>
-</div>
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+            Util.Cookie.set("alpin","",-111);
+        });
+    </script>
+    <!-- SDK 登录 -->
+
+</body>
+</html>

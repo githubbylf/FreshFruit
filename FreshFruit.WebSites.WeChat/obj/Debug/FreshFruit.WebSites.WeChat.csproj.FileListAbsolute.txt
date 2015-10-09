@@ -1,76 +1,3 @@
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\ASP.NET_MVC5_Bootstrap3_3_4_LESS.dll.config
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\ASP.NET_MVC5_Bootstrap3_3_4_LESS.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\ASP.NET_MVC5_Bootstrap3_3_4_LESS.pdb
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Antlr3.Runtime.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\BundleTransformer.Core.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\BundleTransformer.Less.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\EntityFramework.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\EntityFramework.SqlServer.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\JavaScriptEngineSwitcher.Core.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\JavaScriptEngineSwitcher.Msie.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.AspNet.Identity.Core.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.AspNet.Identity.Owin.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Host.SystemWeb.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Cookies.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Facebook.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Google.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.OAuth.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Twitter.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Web.Infrastructure.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\MsieJavaScriptEngine.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Newtonsoft.Json.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Owin.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Net.Http.Formatting.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Helpers.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Http.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Http.WebHost.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Mvc.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Optimization.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Razor.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.Deployment.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.Razor.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\WebGrease.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Antlr3.Runtime.pdb
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\EntityFramework.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\EntityFramework.SqlServer.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.AspNet.Identity.Core.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.AspNet.Identity.Owin.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Host.SystemWeb.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Cookies.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Facebook.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Google.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.OAuth.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Microsoft.Owin.Security.Twitter.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\Newtonsoft.Json.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Net.Http.Formatting.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Helpers.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Http.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Http.WebHost.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Mvc.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Optimization.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.Razor.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.Deployment.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.Razor.xml
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\BundleTransformer.Core.resources.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\BundleTransformer.Less.resources.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\MsieJavaScriptEngine.resources.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\ASP.NET_MVC5_Bootstrap3_3_4_LESS.dll
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\ASP.NET_MVC5_Bootstrap3_3_4_LESS.pdb
-c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.csprojResolveAssemblyReference.cache
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ASP.NET_MVC5_Bootstrap3_3_4_LESS.dll.config
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ASP.NET_MVC5_Bootstrap3_3_4_LESS.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ASP.NET_MVC5_Bootstrap3_3_4_LESS.pdb
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\Antlr3.Runtime.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\BundleTransformer.Core.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\BundleTransformer.Less.dll
@@ -133,8 +60,32 @@ E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.Dep
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.Razor.xml
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\BundleTransformer.Core.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\BundleTransformer.Less.resources.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\MsieJavaScriptEngine.resources.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\ASP.NET_MVC5_Bootstrap3_3_4_LESS.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\ASP.NET_MVC5_Bootstrap3_3_4_LESS.pdb
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\EntityFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.Owin.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Http.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll.config
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.pdb
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.pdb

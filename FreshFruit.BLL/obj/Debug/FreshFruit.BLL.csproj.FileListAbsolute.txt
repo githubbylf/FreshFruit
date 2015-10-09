@@ -7,3 +7,4 @@ E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.BLL.dll
 E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.BLL.pdb
 E:\New Project\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.dll
 E:\New Project\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.csprojResolveAssemblyReference.cache
