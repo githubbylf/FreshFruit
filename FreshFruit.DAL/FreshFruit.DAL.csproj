@@ -59,6 +59,14 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FreshFruit.Common\FreshFruit.Common.csproj">
+      <Project>{360e5e8c-e3d1-4189-bf8a-9623fc76e651}</Project>
+      <Name>FreshFruit.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreshFruit.Data\FreshFruit.Data.csproj">
+      <Project>{a6ce79e6-b43e-4bf4-a6ff-c5ce02d61298}</Project>
+      <Name>FreshFruit.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FreshFruit.IDAL\FreshFruit.IDAL.csproj">
       <Project>{e0274a99-04b7-44cc-8053-60043e80c089}</Project>
       <Name>FreshFruit.IDAL</Name>

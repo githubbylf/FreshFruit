@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCommon\DisposableAction.cs" />
+    <Compile Include="BaseCommon\IdGenerator.cs" />
+    <Compile Include="BaseCommon\IdWorker.cs" />
+    <Compile Include="BaseCommon\IEnumerableExtensions.cs" />
+    <Compile Include="BaseCommon\InvalidSystemClock.cs" />
+    <Compile Include="BaseCommon\SystemFunction.cs" />
     <Compile Include="CommonUtils\BaseEnums.cs" />
     <Compile Include="CommonUtils\ErrorCode.cs" />
+    <Compile Include="DBUtils\DataBaseMode.cs" />
+    <Compile Include="DBUtils\DataBaseName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToolsUtils\ChineseToSpell.cs" />
     <Compile Include="ToolsUtils\CommonUtils.cs" />

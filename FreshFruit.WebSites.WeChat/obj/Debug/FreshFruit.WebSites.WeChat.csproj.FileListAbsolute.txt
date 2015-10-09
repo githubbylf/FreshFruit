@@ -83,7 +83,6 @@ E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Razo
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll.config
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.pdb

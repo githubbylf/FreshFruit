@@ -6,4 +6,3 @@ E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\FreshFruit.Common.dll
 E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\FreshFruit.Common.pdb
 E:\New Project\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.dll
 E:\New Project\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.pdb
-E:\New Project\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.csprojResolveAssemblyReference.cache

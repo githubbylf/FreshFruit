@@ -1,15 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using FreshFruit.Common.DBUtils;
+using FreshFruit.Data;
+using FreshFruit.Data.Ext.Dapper;
 using FreshFruit.IDAL;
 using FreshFruit.Model;
 
 namespace FreshFruit.DAL
 {
-    public class Templates_T1 : ITemplates_T1
+    public class Templates_T1 : BaseDao,ITemplates_T1
     {
+
+        private MySqlOperator db;
+
+        public class MockMySqlOperator : MySqlOperator
+        {
+            public MockMySqlOperator(List<Assembly> assemblies = null)
+                : base(DataBaseName.FreshFruit, assemblies)
+            {
+            }
+        }
+
+        public Templates_T1()
+            : base(DataBaseName.FreshFruit)
+        {
+            db = new MockMySqlOperator(new List<Assembly>() { Assembly.GetExecutingAssembly() });
+        }
+
         public int AddObject(TemplatesModel obj)
         {
             throw new NotImplementedException();
