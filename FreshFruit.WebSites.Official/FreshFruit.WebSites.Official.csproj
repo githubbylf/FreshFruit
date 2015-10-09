@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -340,6 +341,23 @@
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_BottomPartial.cshtml" />
+    <Content Include="Views\Account - Copy\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Account - Copy\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account - Copy\_RemoveAccountPartial.cshtml" />
+    <Content Include="Views\Account - Copy\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Account - Copy\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account - Copy\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account - Copy\Login.cshtml" />
+    <Content Include="Views\Account - Copy\Manage.cshtml" />
+    <Content Include="Views\Account - Copy\Register.cshtml" />
+    <Content Include="Views\Home - Copy\About.cshtml" />
+    <Content Include="Views\Home - Copy\Contact.cshtml" />
+    <Content Include="Views\Home - Copy\Index.cshtml" />
+    <Content Include="Views\Shared - Copy\_BottomPartial.cshtml" />
+    <Content Include="Views\Shared - Copy\_Layout.cshtml" />
+    <Content Include="Views\Shared - Copy\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared - Copy\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

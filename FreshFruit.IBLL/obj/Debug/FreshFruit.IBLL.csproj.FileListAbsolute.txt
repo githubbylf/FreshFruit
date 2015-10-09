@@ -7,4 +7,3 @@ E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.dll
 E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.pdb
 E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.dll
 E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.pdb
-E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.csprojResolveAssemblyReference.cache

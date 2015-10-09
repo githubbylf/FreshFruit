@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace ASP.NET_MVC5_Bootstrap3_3_1_LESS
+namespace FreshFruit.WebSites.Official
 {
     public static class WebApiConfig
     {

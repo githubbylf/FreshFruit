@@ -86,6 +86,6 @@ E:\New Project\FreshFruit\FreshFruit.WebSites.Official\bin\zh-Hans\System.Web.Ra
 E:\New Project\FreshFruit\FreshFruit.WebSites.Official\bin\zh-Hans\System.Web.WebPages.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.Official\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.Official\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.Official\obj\Debug\FreshFruit.WebSites.Official.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.WebSites.Official\obj\Debug\FreshFruit.WebSites.Official.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.Official\obj\Debug\FreshFruit.WebSites.Official.pdb
+E:\New Project\FreshFruit\FreshFruit.WebSites.Official\obj\Debug\FreshFruit.WebSites.Official.csprojResolveAssemblyReference.cache

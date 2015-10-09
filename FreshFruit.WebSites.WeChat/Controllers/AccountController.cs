@@ -8,7 +8,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
-using ASP.NET_MVC5_Bootstrap3_3_1_LESS.Models;
+using FreshFruit.WebSites.Official.Models;
 
 namespace FreshFruit.WebSites.WeChat
 {
