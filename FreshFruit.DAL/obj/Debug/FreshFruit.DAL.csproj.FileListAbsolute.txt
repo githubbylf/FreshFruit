@@ -12,3 +12,8 @@ E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\zh-Hans\EntityFramework.resou
 E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\DapperExtensions.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.IDAL.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.IDAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Model.pdb

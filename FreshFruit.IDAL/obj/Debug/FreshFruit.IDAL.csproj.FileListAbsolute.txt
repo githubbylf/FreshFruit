@@ -6,3 +6,6 @@ E:\New Project\FreshFruit\FreshFruit.IDAL\bin\Debug\FreshFruit.IDAL.dll
 E:\New Project\FreshFruit\FreshFruit.IDAL\bin\Debug\FreshFruit.IDAL.pdb
 E:\New Project\FreshFruit\FreshFruit.IDAL\obj\Debug\FreshFruit.IDAL.dll
 E:\New Project\FreshFruit\FreshFruit.IDAL\obj\Debug\FreshFruit.IDAL.pdb
+E:\New Project\FreshFruit\FreshFruit.IDAL\bin\Debug\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.IDAL\bin\Debug\FreshFruit.Model.pdb
+E:\New Project\FreshFruit\FreshFruit.IDAL\obj\Debug\FreshFruit.IDAL.csprojResolveAssemblyReference.cache

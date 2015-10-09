@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DapperExtensions">
+      <HintPath>..\packages\DapperExtensions.1.4.4\lib\net40\DapperExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -48,10 +51,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoTMpper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates_T1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FreshFruit.IDAL\FreshFruit.IDAL.csproj">
+      <Project>{e0274a99-04b7-44cc-8053-60043e80c089}</Project>
+      <Name>FreshFruit.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreshFruit.Model\FreshFruit.Model.csproj">
+      <Project>{b1001ee1-1de0-4d09-9a8e-eb5ae57d257f}</Project>
+      <Name>FreshFruit.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
