@@ -1,0 +1,6 @@
+E:\New Project\FreshFruit\WebAdmin\bin\WebAdmin.dll.config
+E:\New Project\FreshFruit\WebAdmin\bin\WebAdmin.dll
+E:\New Project\FreshFruit\WebAdmin\bin\WebAdmin.pdb
+E:\New Project\FreshFruit\WebAdmin\obj\Debug\WebAdmin.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\WebAdmin\obj\Debug\WebAdmin.dll
+E:\New Project\FreshFruit\WebAdmin\obj\Debug\WebAdmin.pdb

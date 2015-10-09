@@ -1,0 +1,4 @@
+E:\New Project\FreshFruit\FreshFruit.Redis\bin\Debug\FreshFruit.Redis.dll
+E:\New Project\FreshFruit\FreshFruit.Redis\bin\Debug\FreshFruit.Redis.pdb
+E:\New Project\FreshFruit\FreshFruit.Redis\obj\Debug\FreshFruit.Redis.dll
+E:\New Project\FreshFruit\FreshFruit.Redis\obj\Debug\FreshFruit.Redis.pdb

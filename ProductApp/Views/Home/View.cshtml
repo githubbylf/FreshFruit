@@ -1,0 +1,321 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <title>管理信息系统</title>
+    <script src="/Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="/Res/easyui/jquery.easyui.min.js" type="text/javascript"></script>
+    <script src="/Res/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
+    <link href="/Res/easyui/themes/icon.css" rel="stylesheet" type="text/css" />
+    <link href="/Res/easyui/themes/default/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Scripts/JScriptIndex.js"></script>
+    <script type="text/javascript">
+
+        $(function() {
+
+            tabCloseEven();
+            addTab("我的工作台", "", "tu1112", false);
+
+            $('ul li a').click(function() {
+                var tabTitle = $(this).text();
+                var url = $(this).attr("rel"); //获取地址
+                var id = $(this).attr("id"); //获取id
+                var icon = $(this).attr("icon"); //获取图标
+                if (icon == "") {
+                    icon = "icon-save";
+                }
+                addTab(tabTitle, url, icon, true, id);
+
+            });
+            slide();
+            $('.changePassword').click(function () {
+                showMyWindow("修改密码", "/Account/ChangePassword");
+            });
+            $('#loginOut').click(function () {
+                $.messager.confirm('系统提示', '您确定要退出本次登录吗?', function (r) {
+                    if (r) {
+                        location.href = '/Account/LogOff';
+                    }
+                });
+            });
+
+        });
+
+
+        //右下角弹出框;
+        function slide() {
+            var dt = '登录总次数：0 <br/>       本次登录IP：127.0.0.1     <br/>    本次登录时间：2015/9/15 16:16:39      <br/>   上次登录IP：     <br/>    上次登录时间：0001/1/1 0:00:00<br/>';
+            jQuery.messager.show({
+                height: 170,
+                title: '当前登录情况:',
+
+                msg: dt + '温馨提示：为了账户的安全，如果上面的登录情况不正常，建议您马上<a href="#" style="color:red;" class="changePassword" >修改密码</a>',
+
+                timeout: 8000,
+
+                showType: 'slide'
+
+            });
+
+        }
+
+        function addTab(subtitle, url, icon, closable, id) {
+
+            if (!$('#tabs').tabs('exists', subtitle)) {
+                $('#tabs').tabs('add', {
+                    title: subtitle,
+                    content: createFrame(url, id),
+                    closable: closable
+                    , icon: icon
+                });
+            } else {
+                $('#tabs').tabs('select', subtitle);
+
+            }
+            tabClose();
+        }
+
+        function createFrame(url, id) {
+            var s = '<iframe id="' + id + '" scrolling="auto" frameborder="0"  src="' + url + '" style="width:100%;height:99%;overflow-y: auto; "></iframe>';
+            return s;
+        }
+        function tabClose() {
+            /*双击关闭TAB选项卡*/
+            $(".tabs-inner").dblclick(function () {
+                var subtitle = $(this).children(".tabs-closable").text();
+                $('#tabs').tabs('close', subtitle);
+            }); /*为选项卡绑定右键*/
+            $(".tabs-inner").bind('contextmenu', function (e) {
+                $('#mm').menu('show', {
+                    left: e.pageX,
+                    top: e.pageY
+                });
+
+                var subtitle = $(this).children(".tabs-closable").text();
+
+                $('#mm').data("currtab", subtitle);
+                $('#tabs').tabs('select', subtitle);
+                return false;
+            });
+        }
+        //绑定右键菜单事件
+        function tabCloseEven() {
+            //刷新
+            $('#mm-tabupdate').click(function() {
+                var currTab = $('#tabs').tabs('getSelected');
+                var url = $(currTab.panel('options').content).attr('src');
+                var id = $(currTab.panel('options').content).attr('id');
+                ; //获取id
+
+                $('#tabs').tabs('update', {
+                    tab: currTab,
+                    options: {
+                        content: createFrame(url, id)
+                    }
+                });
+            });
+            //关闭
+            $('#mm-tabclose').click(function() {
+                var currtab_title = $('#mm').data("currtab");
+                $('#tabs').tabs('close', currtab_title);
+            });
+
+
+            //退出
+            $("#mm-exit").click(function() {
+                $('#mm').menu('hide');
+            });
+        }
+
+    </script>
+    <style type="text/css">
+        body {
+            font-family: 微软雅黑,新宋体;
+        }
+
+        a {
+            color: Black;
+            text-decoration: none;
+        }
+
+        .easyui-tree li {
+            margin: 5px 0px 0px 0px;
+            padding: 1px;
+        }
+
+        #mainlogo {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 575px;
+            height: 72px;
+        }
+
+        #center {
+            padding-left: 575px;
+            padding-right: 425px;
+        }
+
+        #mainctrl {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            height: 72px;
+            width: 425px;
+        }
+
+
+        .wel {
+            height: 30px;
+            line-height: 30px;
+            color: #FFFFFF;
+            font-size: 14px;
+            text-align: right;
+            padding-right: 5px;
+        }
+
+        .ctr {
+            vertical-align: middle;
+            margin-top: 18px;
+            height: 22px;
+            text-align: right;
+            float: right;
+        }
+
+            .ctr li {
+                float: left;
+                list-style: none;
+            }
+
+        .zi {
+            /*在1.4版本中修改*/
+            background-image: url(../../images/beijing.gif);
+            background-repeat: repeat-x;
+            padding-right: 6px;
+            padding-left: 3px;
+        }
+
+
+        a.v1:visited, a.v1:active, a.v1:link {
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        a.v1:hover {
+            font-size: 14px;
+            color: #005500;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="easyui-layout">
+    <noscript>
+        <div style="position: absolute; z-index: 100000; height: 2046px; top: 0px; left: 0px;
+                                           width: 100%; background: white; text-align: center;">
+            <img src="../../images/noscript.gif" alt='抱歉，请开启脚本支持！' />
+        </div>
+    </noscript>
+
+    <div region="north" split="true" border="false" style="overflow: hidden; height: 76px;line-height: 20px; background-color: green; font-family: 微软雅黑,黑体">
+        <div id="mainlogo">
+
+        </div>
+        <div id="center">
+        </div>
+        <div id="mainctrl">
+            <div class="wel">
+                admin
+                ,欢迎您的光临！
+            </div>
+            <div class="ctr">
+                <li>
+                    <img src="../../images/yuanjiao.png" alt="" />
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../../images/mimaxiugai.gif" alt="" border="0" />
+                    </a>
+                </li>
+                <li class="zi"><a href="#" class="changePassword">修改密码</a></li>
+                <li>
+                    <a href="#">
+                        <img src="../../images/anquantuichu.gif" alt="" border="0" />
+                    </a>
+                </li>
+                <li class="zi"><a href="#" id="loginOut">安全退出</a></li>
+                <li>
+                    <a href="#">
+                        <img src="../../images/bangzhu.gif" border="0">
+                    </a>
+                </li>
+                <li class="zi"><a href="http://admin.kuparts.com/help">帮助中心</a></li>
+                <li>
+                    <a href="#">
+                        <img src="../../images/duanxinxi.gif" alt="" border="0" />
+                    </a>
+                </li>
+                <li class="zi"><a href="#">短消息（0）</a></li>
+            </div>
+        </div>
+    </div>
+
+    <div region="west" hide="true" split="true" title="导航菜单" style="width: 180px;" id="west">
+        <div class="easyui-accordion" fit="true" border="false">
+            <div data-options="iconCls:''" title="系统设置"> <div class="easyui-panel" fit="true" border="false">
+                                                             <ul class="easyui-tree">
+                                                                 <li data-options="">
+                                                                     <span>基础设置</span><ul>
+                                                                         <li data-options=""><a href="#" icon="" rel="Exception" id="3462f8bc-7d9e-40a0-bdfa-002ffe92c5fc">异常捕获</a></li>
+                                                                         <li data-options=""><a href="#" icon="" rel="Field" id="4e13efa3-168c-4daa-b10f-2aff8833236d">数据字典</a></li>
+                                                                         <li data-options=""><a href="#" icon="" rel="Logs" id="d01f081c-42fe-4ce7-ada8-8ff5a192ca55">日志管理</a></li>
+                                                                     </ul>
+                                                                 </li>
+                                                                 <li data-options=""><a href="#" icon="" rel="Employee" id="8e6fa7d6-334a-4d3d-a6bd-e0c5b699ee7d">人员管理</a></li>
+                                                                 <li data-options=""><a href="#" icon="" rel="Menu" id="b2c732e2-7f4b-4f64-acdb-946d26a62ffc">菜单管理</a></li>
+                                                                 <li data-options=""><a href="#" icon="" rel="Operation" id="67902135-f1d9-4090-a748-29cb456fd906">操作管理</a></li>
+                                                                 <li data-options=""><a href="#" icon="" rel="Role" id="ea1bbbed-7f90-40cb-80e7-150e9a849acd">角色管理</a></li>
+                                                             </ul></div></div> 
+            <div data-options="iconCls:''" title="产品管理"> 
+            <div class="easyui-panel" fit="true" border="false">
+                <ul class="easyui-tree">
+                <li data-options=""><a href="#" icon="" rel="/Brands" id="f075aea2-fed6-493b-9879-bc90189ed9da">汽车品牌管理</a></li>
+                <li data-options=""><a href="#" icon="" rel="/Category/1" id="dc27448d-daec-4630-b295-58d0ec2508e1">用品类别管理</a></li>
+                <li data-options=""><a href="#" icon="" rel="/Category/0" id="b05fa7b1-3f2b-460d-b6c2-fd77ac600ef5">配件类别管理</a></li>
+                <li data-options=""><a href="#" icon="" rel="/Products" id="f50d1c24-af73-4a39-9706-f564ec24ab87">产品管理</a></li>
+                <li data-options=""><a href="#" icon="" rel="product/brandcategory" id="a78a78e5-53ee-42fd-a01e-8829e5d1def8">品牌类别管理</a></li>
+                <li data-options=""><a href="#" icon="" rel="/product/deliverydayManager" id="002eb028-2eb5-4338-87b6-8e6cdaa515d4">运费时效管理</a></li>
+                <li data-options=""><a href="#" icon="" rel="/Product/ProBindService" id="3fd1869e-a678-4238-8cd3-00ea627cac87">产品服务绑定</a></li> 
+                </ul></div></div> 
+            <div data-options="iconCls:''" title="会员管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Member/PersonalMemberList" id="510e3bde-19d4-482a-aebf-416e66c19501">买家管理</a></li><li data-options=""><a href="#" icon="" rel="/Member/EnterpriseMemberList" id="e26d904a-ac70-4352-8de1-7f9d2f824b79">卖家管理</a></li><li data-options=""><a href="#" icon="" rel="/Member/AttestList" id="7bfa3a22-3ba7-4fb6-a39b-6235cc13d5cd">实名认证</a></li><li data-options=""><a href="#" icon="" rel="/Act/EmailIndex" id="cec6abd8-c5cc-4559-b58f-017b6e81f9bb">订阅邮箱</a></li><li data-options=""><a href="#" icon="" rel="/member/CreateMember" id="b417c411-9eb0-4494-bfc9-9000adc50877">新增卖家账户</a></li><li data-options=""><a href="#" icon="" rel="/Act/JionIndex" id="ee5ea522-51d4-47dc-a911-1a764be97c1e">招商表单</a></li><li data-options=""><a href="#" icon="" rel="/autopartcity/index" id="911f238d-9558-4c50-89cd-f0ad3cb7cbdf">汽配城管理</a></li><li data-options=""><a href="#" icon="" rel="/Member/Commission" id="282a9f40-6054-4cd9-bc19-f1e684e6700d">卖家交易手续费管理</a></li><li data-options=""><a href="#" icon="" rel="/Act/ClientIndex" id="a3709fa9-88e0-44b7-86cc-a3d6269c6a0d">我的客户</a></li> </ul></div></div> <div data-options="iconCls:''" title="店铺管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Shop/IndexDns" id="f1834b3e-3dc5-4bcc-973f-acc8f0c67d8d">店铺域名管理</a></li><li data-options=""><a href="#" icon="" rel="/Shop/IndexBaseLevel" id="b1fa3e80-4e69-4629-ac5e-3ad8888fe426">店铺等级管理</a></li><li data-options=""><a href="#" icon="" rel="/Shop/IndexLevel" id="6a8a406a-4d26-4dd1-87b7-7a7587237360">商家等级管理</a></li><li data-options=""><a href="#" icon="" rel="/Shop/IndexShopStyle" id="71e805df-164c-4ae5-b592-b2a81f24d7d7">店铺模板管理</a></li> </ul></div></div> <div data-options="iconCls:''" title="广告管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Ads/IndexAdplace" id="c47812ea-0be8-4980-888c-982794b551cc">图片文字广告位列表</a></li><li data-options=""><a href="#" icon="" rel="/Ads/AdsList?PageID=1&PlaceID=1" id="a72ba9c1-a500-4e1b-b0ac-a7a698dcae20">图片文字广告管理</a></li><li data-options=""><a href="#" icon="" rel="/HotPro/IndexProPlace" id="f26eba13-b1ce-4fed-b0a4-f67172140ac0">产品广告位列表</a></li><li data-options=""><a href="#" icon="" rel="/HotPro/IndexPro?PageID=1&PlaceID=1" id="bc13bf52-d6a2-409a-ab17-3316071b238b">产品广告管理</a></li><li data-options=""><a href="#" icon="" rel="/Links/IndexList" id="504ae3cd-9514-4c3e-bfe5-5d7782afc937">友情链接</a></li><li data-options=""><a href="#" icon="" rel="/HotPro/CategoryList" id="7572c4e9-86ef-4ced-aa0e-bc6da408b045">分类导航管理</a></li><li data-options=""><a href="#" icon="" rel="/HotService/HotServiceIndex" id="4d2570f9-9a7e-4531-b117-5730a87561cd">服务商产品广告管理</a></li><li data-options=""><a href="#" icon="" rel="/News/Index" id="41e0ee42-e8e3-44f4-90f2-02b2f16e6810">精彩酷配管理</a></li><li data-options=""><a href="#" icon="" rel="/information/informationlist" id="07b92764-21bc-4a3e-98c1-ab9f852a2027">资讯管理</a></li> </ul></div></div> <div data-options="iconCls:''" title="订单管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Order/OrderList" id="6ce1ddbc-a23c-466d-9d55-4d9094a03271">订单列表</a></li><li data-options=""><a href="#" icon="" rel="/Order/RefundList" id="651976a0-68de-4c39-9e74-30eeb4e4c1ef">退款管理</a></li><li data-options=""><a href="#" icon="" rel="/Order/ReturnList" id="ba53b6a5-af76-4812-90bd-740252cc1ce3">退货管理</a></li> </ul></div></div> <div data-options="iconCls:''" title="帮助中心"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Help/FistTypeList" id="dd3f3d73-9bb2-487a-9829-99b41d826d4f">帮助一级分类管理</a></li><li data-options=""><a href="#" icon="" rel="/Help/HelpTypeList" id="9aec03be-c8df-45f9-8717-cced645d5cf5">帮助类别管理</a></li><li data-options=""><a href="#" icon="" rel="/Help/HelpList" id="2a18da63-bebf-47fe-81db-bba197f69d1e">帮助内容管理</a></li><li data-options=""><a href="#" icon="" rel="/Help/HelpUrlList" id="e00f8bb1-19fc-478c-829c-8751d71e9728">自助服务链接管理</a></li><li data-options=""><a href="#" icon="" rel="/Help/AboutList" id="fd909d94-338b-48e5-91f8-342a6ee1f106">关于信息管理</a></li><li data-options=""><a href="#" icon="" rel="/Help/InformList" id="307e9d51-f7bb-4c08-8b8d-05dc93a8aaef">投诉建议管理</a></li><li data-options=""><a href="#" icon="" rel="/Help/StaticPages" id="abf4bc96-b2fc-4545-a58f-56e3023d5f72">静态页管理</a></li> </ul></div></div> <div data-options="iconCls:''" title="服务商管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/ServiceProject/Project" id="514ce2f4-3096-4b68-b77a-3fbca4605300">服务项目管理</a></li><li data-options=""><a href="#" icon="" rel="/ServiceMember/ServiceMemberList" id="e1381c76-0fa0-47cf-855a-aa4cf1759257">服务商信息管理</a></li><li data-options=""><a href="#" icon="" rel="/ServiceProject/ServiceIndex" id="034a224b-86e8-4000-b857-daa669d48cef">服务管理</a></li> </ul></div></div> <div data-options="iconCls:''" title="手机APP管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/MobileAd/Index" id="fd705826-8eea-4da6-b5fe-2b1c90fe7bb3">手机广告管理</a></li><li data-options=""><a href="#" icon="" rel="/Act/AppIndex" id="e72b575b-2428-42c8-b987-996ccccf2560">APP升级管理</a></li><li data-options=""><a href="#" icon="" rel="/appad" id="a1b12104-3548-49cf-918e-d4457f6bb8f4">APP广告推送管理</a></li><li data-options=""><a href="#" icon="" rel="/AppProductSeries" id="9330ef9a-fc82-422f-a1e9-4fc99612f514">APP商品类目管理</a></li><li data-options=""><a href="#" icon="" rel="/AppManager" id="5cfbe01a-8129-45ad-9bee-1c12ea874841">APP特惠产品/服务</a></li><li data-options=""><a href="#" icon="" rel="/information/AppNewsList" id="0bbac811-c122-44db-9448-b90a71b9d24d">App资讯管理</a></li> </ul></div></div> <div data-options="iconCls:''" title="活动管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Act/GuanzhuIndex" id="7d6bbb8b-ed7f-46f7-8706-b243a5c444a1">关注有礼</a></li><li data-options=""><a href="#" icon="" rel="/Act/HongBaoIndex" id="7fc41ddf-5451-4ec4-8358-4c24eb4928f1">红包查看</a></li><li data-options=""><a href="#" icon="" rel="/Act/CustomCoupon" id="a79cc0c3-d288-43f3-9832-48bf9a748109">红包生成器</a></li> </ul></div></div> <div data-options="iconCls:''" title="财务管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Finance/index" id="f1a56885-e97c-49c5-a8a3-ccf3d4abb1fd">提现账户列表</a></li><li data-options=""><a href="#" icon="" rel="/Finance/WithDrawLogs" id="898d130b-fffc-484a-afe6-14319f60d26a">提现申请</a></li><li data-options=""><a href="#" icon="" rel="/Finance/fp1" id="52afdf74-12d9-4635-977d-d02d921e6db4">提现放款申请</a></li><li data-options=""><a href="#" icon="" rel="/tlogs/13992/2013-12-24/2014-12-24/3/0/-1/1/0/1/1" id="27ab837e-177b-4339-b599-3a2da54ad8d2">收支明细</a></li><li data-options=""><a href="#" icon="" rel="/order/cashlist?memberid=0&isaccount=1" id="8f6f37a7-747e-431e-bc98-a18573714a1c">红包列表</a></li> </ul></div></div> <div data-options="iconCls:''" title="产品搜索"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/productlucene/AmbiguityWord" id="a2d237a2-c427-4c55-9991-1f1e0e2fa6d6">同义词管理</a></li><li data-options=""><a href="#" icon="" rel="/productlucene/SearchHistorys" id="9a38f17a-2dec-468c-88d7-e72bfd3449f8">搜索记录</a></li><li data-options=""><a href="#" icon="" rel="/productlucene/ConditionsList" id="07bad090-6ab8-4b37-af28-83969b589676">条件匹配</a></li> </ul></div></div> <div data-options="iconCls:''" title="数据统计"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/Statistic/BuyerCount" id="6219b3cc-4df0-4fac-8de0-f32c28e71dfc">买家数量统计</a></li><li data-options=""><a href="#" icon="" rel="/Statistic/SellerCount" id="a80eb940-0106-42f8-ad49-1d94bcb68f18">商家数量统计</a></li><li data-options=""><a href="#" icon="" rel="/Statistic/ProductCount" id="70b3c748-a0c7-499b-bb08-b03598e3e2cc">产品/服务统计</a></li><li data-options=""><a href="#" icon="" rel="/Statistic/OrderCount" id="a75d3706-daf7-4812-b66f-5d8c94f90b19">订单数量统计</a></li><li data-options=""><a href="#" icon="" rel="/Statistic/OperateCount" id="24af32b5-53ba-43a2-867b-b30ecd85389e">后台操作统计</a></li><li data-options=""><a href="#" icon="" rel="/Statistic/Summary" id="9616cac4-00c3-40a1-bf0f-bc8680815ee0">汇总统计表</a></li> </ul></div></div> <div data-options="iconCls:''" title="问答管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="/QuestionAnswers/Index" id="1f8f53be-dd7b-46dd-a530-97d84790c428">问答管理中心</a></li> </ul></div></div> <div data-options="iconCls:''" title="维保订单管理"> <div class="easyui-panel" fit="true" border="false"><ul class="easyui-tree"><li data-options=""><a href="#" icon="" rel="Policy/Order" id="a8b26cf1-8b7b-43e4-aaa2-52a81b7d2350">维保订单管理</a></li><li data-options=""><a href="#" icon="" rel="Policy/index" id="f93a98fb-01a5-4f19-9b1f-64097388c8f6">申诉订单管理</a></li> </ul></div></div>
+        </div>
+    </div>
+
+    <div id="mainPanle" region="center" style="background: #eee; overflow-y: hidden;">
+        <div id="tabs" class="easyui-tabs" fit="true" border="false">
+        </div>
+    </div>
+
+    <div region="south" split="true" style="height: 29px;">
+
+        <div id="win" class="easyui-window" title="My Window" closed="true" data-options="left:'100px',top:'0px'"
+             style="width: 300px; height: 100px; padding: 5px;">
+            adfgasd
+        </div>
+    </div>
+
+    <div id="mm" class="easyui-menu" style="width: 150px;">
+        <div id="mm-tabupdate">
+            刷新
+        </div>
+        <div class="menu-sep">
+        </div>
+        <div id="mm-tabclose">
+            关闭
+        </div>
+    </div>
+
+
+</body>
+</html>
