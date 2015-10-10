@@ -28,3 +28,4 @@ E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.Common.pdb
 E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\EntityFramework.xml
 E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\Dapper.xml
 E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\NLog.config

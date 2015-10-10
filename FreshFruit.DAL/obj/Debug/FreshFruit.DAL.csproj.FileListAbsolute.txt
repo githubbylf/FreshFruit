@@ -24,3 +24,4 @@ E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\Dapper.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Common.pdb
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Data.pdb
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\Dapper.xml
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\NLog.config

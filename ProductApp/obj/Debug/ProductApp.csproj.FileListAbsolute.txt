@@ -83,3 +83,4 @@ E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\System.Web.Http.Owin.resources.
 E:\New Project\FreshFruit\ProductApp\obj\Debug\ProductApp.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\ProductApp\obj\Debug\ProductApp.dll
 E:\New Project\FreshFruit\ProductApp\obj\Debug\ProductApp.pdb
+E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\EntityFramework.SqlServer.resources.dll

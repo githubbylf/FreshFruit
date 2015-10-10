@@ -15,3 +15,5 @@ E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\FreshFruit.Common.dll
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\MySql.Data.dll
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\FreshFruit.Common.pdb
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\Dapper.xml
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\NLog.config
+E:\New Project\FreshFruit\FreshFruit.Data\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
