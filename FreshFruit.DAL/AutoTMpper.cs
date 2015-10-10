@@ -13,7 +13,7 @@ namespace FreshFruit.DAL
         public TemplatesClassMapper()
         {
             Map(x => x.temp_id).Key(KeyType.Assigned);
-            Table("Kp_His_Question");
+            Table("temp_v1");
             AutoMap();
         }
     }

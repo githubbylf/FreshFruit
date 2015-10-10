@@ -53,6 +53,23 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FreshFruit.DAL\FreshFruit.DAL.csproj">
+      <Project>{4de3c14d-2971-4aa2-9863-6179c64abc1e}</Project>
+      <Name>FreshFruit.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreshFruit.Data\FreshFruit.Data.csproj">
+      <Project>{a6ce79e6-b43e-4bf4-a6ff-c5ce02d61298}</Project>
+      <Name>FreshFruit.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreshFruit.Model\FreshFruit.Model.csproj">
+      <Project>{b1001ee1-1de0-4d09-9a8e-eb5ae57d257f}</Project>
+      <Name>FreshFruit.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

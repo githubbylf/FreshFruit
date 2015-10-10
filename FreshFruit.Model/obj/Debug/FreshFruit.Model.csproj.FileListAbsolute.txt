@@ -6,3 +6,4 @@ E:\New Project\FreshFruit\FreshFruit.Model\bin\Debug\FreshFruit.Model.dll
 E:\New Project\FreshFruit\FreshFruit.Model\bin\Debug\FreshFruit.Model.pdb
 E:\New Project\FreshFruit\FreshFruit.Model\obj\Debug\FreshFruit.Model.dll
 E:\New Project\FreshFruit\FreshFruit.Model\obj\Debug\FreshFruit.Model.pdb
+E:\New Project\FreshFruit\FreshFruit.Model\obj\Debug\FreshFruit.Model.csprojResolveAssemblyReference.cache

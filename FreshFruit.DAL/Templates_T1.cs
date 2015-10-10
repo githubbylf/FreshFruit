@@ -33,7 +33,7 @@ namespace FreshFruit.DAL
 
         public int AddObject(TemplatesModel obj)
         {
-            throw new NotImplementedException();
+            return db.Insert(obj) == true ? 1 : 0;
         }
 
         public int DeleteObject(int temp_id)
