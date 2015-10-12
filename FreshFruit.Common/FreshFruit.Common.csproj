@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
       <HintPath>..\packages\NLog.4.1.2\lib\net45\NLog.dll</HintPath>
       <Private>True</Private>
@@ -46,15 +50,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCommon\BusinessException.cs" />
     <Compile Include="BaseCommon\DisposableAction.cs" />
+    <Compile Include="BaseCommon\Extended\JsonHelper.cs" />
+    <Compile Include="BaseCommon\Extended\SerializationHelper.cs" />
     <Compile Include="BaseCommon\IdGenerator.cs" />
     <Compile Include="BaseCommon\IdWorker.cs" />
     <Compile Include="BaseCommon\IEnumerableExtensions.cs" />
     <Compile Include="BaseCommon\InvalidSystemClock.cs" />
     <Compile Include="BaseCommon\SystemFunction.cs" />
     <Compile Include="CommonUtils\BaseEnums.cs" />
-    <Compile Include="CommonUtils\ErrorCode.cs" />
     <Compile Include="Components\Logs\NLogHelper.cs" />
+    <Compile Include="Components\MsgCode\DefaultConfigFileManager.cs" />
+    <Compile Include="Components\MsgCode\IConfigInfo.cs" />
+    <Compile Include="Components\MsgCode\MessageCodesConfig.cs" />
+    <Compile Include="Components\MsgCode\MessageCodesConfigFileManager.cs" />
+    <Compile Include="Components\MsgCode\MessageCodesConfigInfo.cs" />
     <Compile Include="DBUtils\DataBaseMode.cs" />
     <Compile Include="DBUtils\DataBaseName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,7 +75,9 @@
     <Compile Include="ToolsUtils\HexUtils.cs" />
     <Compile Include="ToolsUtils\LogUtils.cs" />
     <Compile Include="ToolsUtils\MailUtils.cs" />
+    <Compile Include="ToolsUtils\StringExtension.cs" />
     <Compile Include="ToolsUtils\StringUtils.cs" />
+    <Compile Include="Utility\Utils.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

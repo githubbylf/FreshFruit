@@ -1,6 +1,5 @@
 ﻿using NLog;
 using NLog.Config;
-using NLog.Internal;
 using System;
 using System.IO;
 using System.Management;
@@ -11,7 +10,7 @@ namespace FreshFruit.Common.Components.Logs
     {
         private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
         private static string _ip = string.Empty;
-        private static readonly string ApplicationName = ConfigurationManager.AppSettings["ApplicationName"];
+        private static readonly string ApplicationName = System.Configuration.ConfigurationManager.AppSettings["ApplicationName"];
 
         static NLogHelper()
         {

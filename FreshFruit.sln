@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 UI(User Interface Layer)", "1 UI(User Interface Layer)", "{E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.WebSites.WeChat", "FreshFruit.WebSites.WeChat\FreshFruit.WebSites.WeChat.csproj", "{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.WebSites.Official", "FreshFruit.WebSites.Official\FreshFruit.WebSites.Official.csproj", "{72752698-C3FC-4701-BEDE-A9BB29BA6511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.IoC", "FreshFruit.IoC\FreshFruit.IoC.csproj", "{C8856E4C-C630-4153-AEAF-9AD764CDD279}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,10 @@ Global
 		{72752698-C3FC-4701-BEDE-A9BB29BA6511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72752698-C3FC-4701-BEDE-A9BB29BA6511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72752698-C3FC-4701-BEDE-A9BB29BA6511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8856E4C-C630-4153-AEAF-9AD764CDD279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8856E4C-C630-4153-AEAF-9AD764CDD279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8856E4C-C630-4153-AEAF-9AD764CDD279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8856E4C-C630-4153-AEAF-9AD764CDD279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,5 +160,6 @@ Global
 		{6B859511-D54C-4C2B-85AB-C0C1B69B8DCB} = {E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}
 		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3} = {E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}
 		{72752698-C3FC-4701-BEDE-A9BB29BA6511} = {E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}
+		{C8856E4C-C630-4153-AEAF-9AD764CDD279} = {44908A98-9B99-4789-BA7B-2BA7DD4FA650}
 	EndGlobalSection
 EndGlobal
