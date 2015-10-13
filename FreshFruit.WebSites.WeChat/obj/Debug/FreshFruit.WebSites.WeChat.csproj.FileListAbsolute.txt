@@ -1,3 +1,6 @@
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll.config
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.pdb
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\Antlr3.Runtime.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\BundleTransformer.Core.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\BundleTransformer.Less.dll
@@ -61,6 +64,7 @@ E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\System.Web.WebPages.Raz
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\BundleTransformer.Core.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\BundleTransformer.Less.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\EntityFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
@@ -83,10 +87,5 @@ E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.Razo
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll.config
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.dll
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.pdb
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.pdb
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Debug\FreshFruit.WebSites.WeChat.csprojResolveAssemblyReference.cache
-E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\EntityFramework.SqlServer.resources.dll

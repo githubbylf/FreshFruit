@@ -11,9 +11,10 @@ namespace FreshFruit.UnitTest
         [TestMethod]
         public void TestMethod1()
         {
-            Templates_T1 t = new Templates_T1();
-            TemplatesModel m = new TemplatesModel();
-            t.AddObject(m);
+            //Templates_T1 t = new Templates_T1();
+            //TemplatesModel m = new TemplatesModel();
+            ////t.AddObject(m);
+            //t.DeleteObject(1);
         }
 
 

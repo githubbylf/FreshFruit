@@ -2,3 +2,10 @@ E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.BLL.dll
 E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.BLL.pdb
 E:\New Project\FreshFruit\FreshFruit.BLL\obj\Release\FreshFruit.BLL.dll
 E:\New Project\FreshFruit\FreshFruit.BLL\obj\Release\FreshFruit.BLL.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\obj\Release\FreshFruit.BLL.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.BLL.dll.config
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.IBLL.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\AutofacContrib.DynamicProxy2.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.IBLL.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Release\FreshFruit.Model.pdb

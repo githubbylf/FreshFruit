@@ -69,6 +69,7 @@ E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\System.Web.WebPages.resources.d
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\EntityFramework.resources.dll
+E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
@@ -80,7 +81,6 @@ E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\Microsoft.Owin.Security.Google.
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\System.Web.Http.Owin.resources.dll
-E:\New Project\FreshFruit\ProductApp\obj\Debug\ProductApp.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\ProductApp\obj\Debug\ProductApp.dll
 E:\New Project\FreshFruit\ProductApp\obj\Debug\ProductApp.pdb
-E:\New Project\FreshFruit\ProductApp\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\New Project\FreshFruit\ProductApp\obj\Debug\ProductApp.csprojResolveAssemblyReference.cache

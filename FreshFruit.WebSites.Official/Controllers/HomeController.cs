@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FreshFruit.IBLL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +9,15 @@ namespace FreshFruit.WebSites.Official
 {
     public class HomeController : Controller
     {
+        private IProductRepository repository;
+        public HomeController(IProductRepository irepository)
+        {
+            repository = irepository;
+        }
+
         public ActionResult Index()
         {
+            repository.AddObject(2);
             return View();
         }
 

@@ -2,26 +2,30 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.DAL.pdb
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\NLog.config
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.DAL.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.DAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\DapperExtensions.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.SqlServer.dll
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.xml
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.SqlServer.xml
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
-E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.csprojResolveAssemblyReference.cache
-E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.dll
-E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.pdb
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\DapperExtensions.dll
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.IDAL.dll
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Model.dll
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.IDAL.pdb
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Model.pdb
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Common.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Data.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.IDAL.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\NLog.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\Newtonsoft.Json.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\MySql.Data.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\Dapper.dll
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Common.pdb
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Data.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.IDAL.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\FreshFruit.Model.pdb
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.xml
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\NLog.xml
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\Newtonsoft.Json.xml
 E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\Dapper.xml
-E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\NLog.config
+E:\New Project\FreshFruit\FreshFruit.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.dll
+E:\New Project\FreshFruit\FreshFruit.DAL\obj\Debug\FreshFruit.DAL.pdb

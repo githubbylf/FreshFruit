@@ -88,3 +88,4 @@ E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeC
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\FreshFruit.WebSites.WeChat.pdb
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Release\FreshFruit.WebSites.WeChat.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\obj\Release\FreshFruit.WebSites.WeChat.pdb
+E:\New Project\FreshFruit\FreshFruit.WebSites.WeChat\bin\zh-Hans\EntityFramework.SqlServer.resources.dll

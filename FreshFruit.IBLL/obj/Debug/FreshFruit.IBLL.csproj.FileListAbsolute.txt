@@ -3,8 +3,24 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.csprojResolveAssemblyReference.cache
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.dll.config
 E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.dll
 E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IBLL.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\Autofac.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\AutofacContrib.DynamicProxy2.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\Castle.Core.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IoC.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.Common.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\NLog.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\Newtonsoft.Json.dll
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.IoC.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.Model.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\Autofac.xml
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\Castle.Core.xml
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\FreshFruit.Common.pdb
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\NLog.xml
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Debug\Newtonsoft.Json.xml
+E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.dll
 E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.pdb
-E:\New Project\FreshFruit\FreshFruit.IBLL\obj\Debug\FreshFruit.IBLL.csprojResolveAssemblyReference.cache

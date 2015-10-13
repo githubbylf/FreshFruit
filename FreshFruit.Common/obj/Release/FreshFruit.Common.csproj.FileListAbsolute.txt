@@ -1,7 +1,9 @@
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\NLog.config
 E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\FreshFruit.Common.dll
 E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\FreshFruit.Common.pdb
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\Newtonsoft.Json.dll
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\NLog.dll
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\Newtonsoft.Json.xml
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\NLog.xml
 E:\New Project\FreshFruit\FreshFruit.Common\obj\Release\FreshFruit.Common.dll
 E:\New Project\FreshFruit\FreshFruit.Common\obj\Release\FreshFruit.Common.pdb
-E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\NLog.config
-E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\NLog.dll
-E:\New Project\FreshFruit\FreshFruit.Common\bin\Release\NLog.xml
