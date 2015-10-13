@@ -1,0 +1,6 @@
+E:\New Project\FreshFruit\Security.Test\bin\Release\Security.Test.exe.config
+E:\New Project\FreshFruit\Security.Test\bin\Release\Security.Test.exe
+E:\New Project\FreshFruit\Security.Test\bin\Release\Security.Test.pdb
+E:\New Project\FreshFruit\Security.Test\obj\Release\Security.Test.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\Security.Test\obj\Release\Security.Test.exe
+E:\New Project\FreshFruit\Security.Test\obj\Release\Security.Test.pdb

@@ -1,0 +1,14 @@
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\NLog.config
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\FreshFruit.IoC.dll
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\FreshFruit.IoC.pdb
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\Castle.Core.dll
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\FreshFruit.Common.dll
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\NLog.dll
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\Newtonsoft.Json.dll
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\FreshFruit.Common.pdb
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\Castle.Core.xml
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\NLog.xml
+E:\New Project\FreshFruit\FreshFruit.IoC\bin\Release\Newtonsoft.Json.xml
+E:\New Project\FreshFruit\FreshFruit.IoC\obj\Release\FreshFruit.IoC.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.IoC\obj\Release\FreshFruit.IoC.dll
+E:\New Project\FreshFruit\FreshFruit.IoC\obj\Release\FreshFruit.IoC.pdb
