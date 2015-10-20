@@ -77,8 +77,7 @@
     <Compile Include="ToolsUtils\MailUtils.cs" />
     <Compile Include="ToolsUtils\StringExtension.cs" />
     <Compile Include="ToolsUtils\StringUtils.cs" />
-    <Compile Include="Utility\Ciphertext.cs" />
-    <Compile Include="Utility\Class1.cs" />
+    <Compile Include="Utility\Security\Ciphertext.cs" />
     <Compile Include="Utility\Utils.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -2,7 +2,3 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Luce
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Lucene\bin\Debug\FreshFruit.Lucene.pdb
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Lucene\obj\Debug\FreshFruit.Lucene.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Lucene\obj\Debug\FreshFruit.Lucene.pdb
-E:\New Project\FreshFruit\FreshFruit.Lucene\bin\Debug\FreshFruit.Lucene.dll
-E:\New Project\FreshFruit\FreshFruit.Lucene\bin\Debug\FreshFruit.Lucene.pdb
-E:\New Project\FreshFruit\FreshFruit.Lucene\obj\Debug\FreshFruit.Lucene.dll
-E:\New Project\FreshFruit\FreshFruit.Lucene\obj\Debug\FreshFruit.Lucene.pdb

@@ -90,3 +90,4 @@ E:\New Project\FreshFruit\FreshFruit.WebSites.Templates\bin\zh-Hans\System.Web.W
 E:\New Project\FreshFruit\FreshFruit.WebSites.Templates\obj\Release\FreshFruit.WebSites.Templates.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.WebSites.Templates\obj\Release\ASP.NET_MVC5_Bootstrap3_3_4_LESS.dll
 E:\New Project\FreshFruit\FreshFruit.WebSites.Templates\obj\Release\ASP.NET_MVC5_Bootstrap3_3_4_LESS.pdb
+E:\New Project\FreshFruit\FreshFruit.WebSites.Templates\bin\MySql.Data.Entity.EF6.dll

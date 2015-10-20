@@ -11,7 +11,7 @@ namespace Security.Test
             u.username = "liufei";
 
             string salt = Guid.NewGuid().ToString();
-            string passowrd = @"FEIANDping2526@%..dhfoaasdfasdfasdfasdfasdfasdfadfadfasdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+            string passowrd = @"F";
 
             byte[] passwordAndSaltBytes = Encoding.UTF8.GetBytes(passowrd+salt);
             byte[] hasBytes = new System.Security.Cryptography.SHA256Managed().ComputeHash(passwordAndSaltBytes);

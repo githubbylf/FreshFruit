@@ -3,31 +3,3 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Unit
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.csprojResolveAssemblyReference.cache
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\NLog.config
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.dll.config
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.DAL.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.Data.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.Model.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\DapperExtensions.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.IDAL.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.Common.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\MySql.Data.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\EntityFramework.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\Dapper.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\NLog.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\Newtonsoft.Json.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.DAL.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.Data.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.Model.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.IDAL.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.Common.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\EntityFramework.xml
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\Dapper.xml
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\NLog.xml
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\Newtonsoft.Json.xml
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\zh-Hans\EntityFramework.resources.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.csprojResolveAssemblyReference.cache
-E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.dll
-E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.pdb
