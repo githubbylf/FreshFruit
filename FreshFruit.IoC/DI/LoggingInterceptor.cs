@@ -27,7 +27,6 @@ namespace FreshFruit.IoC.DI
                     }
                 }
 
-                //只有业务层仅返回true/false的时候，才会抛出该异常（服务层响应BaseResponse类型）
                 var message = string.Format("Message:{0} /n/r Arguments:{1} "
                     , ex.Message, parms.ToString());
 

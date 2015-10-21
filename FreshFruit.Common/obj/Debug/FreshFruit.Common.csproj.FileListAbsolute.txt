@@ -2,3 +2,13 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Comm
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Common\bin\Debug\FreshFruit.Common.pdb
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.pdb
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\NLog.config
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\FreshFruit.Common.dll
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\FreshFruit.Common.pdb
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\Newtonsoft.Json.dll
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\NLog.dll
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\Newtonsoft.Json.xml
+E:\New Project\FreshFruit\FreshFruit.Common\bin\Debug\NLog.xml
+E:\New Project\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.dll
+E:\New Project\FreshFruit\FreshFruit.Common\obj\Debug\FreshFruit.Common.pdb

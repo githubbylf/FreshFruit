@@ -2,3 +2,8 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Data
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DataContract\bin\Debug\FreshFruit.DataContract.pdb
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DataContract\obj\Debug\FreshFruit.DataContract.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.DataContract\obj\Debug\FreshFruit.DataContract.pdb
+E:\New Project\FreshFruit\FreshFruit.DataContract\bin\Debug\FreshFruit.DataContract.dll
+E:\New Project\FreshFruit\FreshFruit.DataContract\bin\Debug\FreshFruit.DataContract.pdb
+E:\New Project\FreshFruit\FreshFruit.DataContract\obj\Debug\FreshFruit.DataContract.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.DataContract\obj\Debug\FreshFruit.DataContract.dll
+E:\New Project\FreshFruit\FreshFruit.DataContract\obj\Debug\FreshFruit.DataContract.pdb

@@ -3,3 +3,25 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.BLL\
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.pdb
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\NLog.config
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.BLL.dll.config
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.BLL.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.BLL.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.IBLL.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.Model.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.IoC.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\AutofacContrib.DynamicProxy2.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\Castle.Core.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.Common.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\NLog.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\Newtonsoft.Json.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.IBLL.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.Model.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.IoC.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\Castle.Core.xml
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\FreshFruit.Common.pdb
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\NLog.xml
+E:\New Project\FreshFruit\FreshFruit.BLL\bin\Debug\Newtonsoft.Json.xml
+E:\New Project\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.dll
+E:\New Project\FreshFruit\FreshFruit.BLL\obj\Debug\FreshFruit.BLL.pdb

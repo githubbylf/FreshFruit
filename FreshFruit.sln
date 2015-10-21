@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 UI(User Interface Layer)", "1 UI(User Interface Layer)", "{E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}"
 EndProject
@@ -58,6 +58,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.WebSites.Templates", "FreshFruit.WebSites.Templates\FreshFruit.WebSites.Templates.csproj", "{585E98A9-4108-4551-A20E-A806612D81FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.Test", "Security.Test\Security.Test.csproj", "{1AA1BAF4-2DCC-4B50-BF14-9211B5FE0013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.WebSites.ERP", "FreshFruit.WebSites.ERP\FreshFruit.WebSites.ERP.csproj", "{F00AC583-2F78-45B9-8934-40445B9D4C68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshFruit.WebSites.VendorManaged", "FreshFruit.WebSites.VendorManaged\FreshFruit.WebSites.VendorManaged.csproj", "{01D655CC-8F11-403B-A633-278E6D88FA05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +153,14 @@ Global
 		{1AA1BAF4-2DCC-4B50-BF14-9211B5FE0013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA1BAF4-2DCC-4B50-BF14-9211B5FE0013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AA1BAF4-2DCC-4B50-BF14-9211B5FE0013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00AC583-2F78-45B9-8934-40445B9D4C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00AC583-2F78-45B9-8934-40445B9D4C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00AC583-2F78-45B9-8934-40445B9D4C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00AC583-2F78-45B9-8934-40445B9D4C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D655CC-8F11-403B-A633-278E6D88FA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D655CC-8F11-403B-A633-278E6D88FA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D655CC-8F11-403B-A633-278E6D88FA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D655CC-8F11-403B-A633-278E6D88FA05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,5 +187,7 @@ Global
 		{C8856E4C-C630-4153-AEAF-9AD764CDD279} = {44908A98-9B99-4789-BA7B-2BA7DD4FA650}
 		{585E98A9-4108-4551-A20E-A806612D81FE} = {E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}
 		{1AA1BAF4-2DCC-4B50-BF14-9211B5FE0013} = {B0F0D708-9E31-48E3-8DEC-C9BAD84B5301}
+		{F00AC583-2F78-45B9-8934-40445B9D4C68} = {E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}
+		{01D655CC-8F11-403B-A633-278E6D88FA05} = {E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}
 	EndGlobalSection
 EndGlobal
