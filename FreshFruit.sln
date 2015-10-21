@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 UI(User Interface Layer)", "1 UI(User Interface Layer)", "{E3DCD1A9-B7FF-466D-8B8C-BF0AC92C0AA4}"
+	ProjectSection(SolutionItems) = preProject
+		Web Description.txt = Web Description.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 DAL(Data Access Layer)", "4 DAL(Data Access Layer)", "{0BA40831-27CC-4F1A-9460-098382AADB5F}"
 EndProject

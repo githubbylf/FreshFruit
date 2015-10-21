@@ -3,7 +3,6 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Unit
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.csprojResolveAssemblyReference.cache
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.dll
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.pdb
-E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\NLog.config
 E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.dll.config
 E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.dll
 E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\FreshFruit.UnitTest.pdb
@@ -33,3 +32,4 @@ E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\zh-Hans\EntityFramework.
 E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.dll
 E:\New Project\FreshFruit\FreshFruit.UnitTest\obj\Debug\FreshFruit.UnitTest.pdb
+E:\New Project\FreshFruit\FreshFruit.UnitTest\bin\Debug\NLog.config
