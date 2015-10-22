@@ -4,6 +4,5 @@ c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.Serv
 c:\users\liufei\documents\visual studio 2013\Projects\FreshFruit\FreshFruit.ServicesContract\obj\Debug\FreshFruit.ServicesContract.pdb
 E:\New Project\FreshFruit\FreshFruit.ServicesContract\bin\Debug\FreshFruit.ServicesContract.dll
 E:\New Project\FreshFruit\FreshFruit.ServicesContract\bin\Debug\FreshFruit.ServicesContract.pdb
-E:\New Project\FreshFruit\FreshFruit.ServicesContract\obj\Debug\FreshFruit.ServicesContract.csprojResolveAssemblyReference.cache
 E:\New Project\FreshFruit\FreshFruit.ServicesContract\obj\Debug\FreshFruit.ServicesContract.dll
 E:\New Project\FreshFruit\FreshFruit.ServicesContract\obj\Debug\FreshFruit.ServicesContract.pdb

@@ -2,9 +2,7 @@ E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\FreshFruit.Data.dll.config
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\FreshFruit.Data.dll
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\FreshFruit.Data.pdb
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\EntityFramework.dll
-E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\EntityFramework.SqlServer.dll
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\EntityFramework.xml
-E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\EntityFramework.SqlServer.xml
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\zh-Hans\EntityFramework.resources.dll
 E:\New Project\FreshFruit\FreshFruit.Data\obj\Release\FreshFruit.Data.dll
 E:\New Project\FreshFruit\FreshFruit.Data\obj\Release\FreshFruit.Data.pdb
@@ -19,5 +17,4 @@ E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\FreshFruit.Common.pdb
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\Dapper.xml
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\NLog.xml
 E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\Newtonsoft.Json.xml
-E:\New Project\FreshFruit\FreshFruit.Data\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
 E:\New Project\FreshFruit\FreshFruit.Data\obj\Release\FreshFruit.Data.csprojResolveAssemblyReference.cache

@@ -19,3 +19,4 @@ E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Release\Castle.Core.xml
 E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Release\FreshFruit.Common.pdb
 E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Release\NLog.xml
 E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Release\Newtonsoft.Json.xml
+E:\New Project\FreshFruit\FreshFruit.IBLL\bin\Release\NLog.config

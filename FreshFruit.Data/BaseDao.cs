@@ -108,7 +108,6 @@ namespace FreshFruit.Data
             {
                 case DataBaseName.FreshFruit:
                     return "FreshFruit";
-                    break;
                 default:
                     throw new ArgumentException("未定义的数据库连接名称");
             }

@@ -7,6 +7,7 @@ namespace FreshFruit.BLL
     {
         public int AddObject(object obj)
         {
+            return 0;
             throw new NotImplementedException();
         }
     }

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ASP.NET_MVC5_Bootstrap3_3_4_LESS")]
-[assembly: AssemblyDescription("Default ASP.NET MVC5 Template with Bootstrap 3.3.4 LESS")]
+[assembly: AssemblyTitle("FreshFruit.WebSites.Official")]
+[assembly: AssemblyDescription("Default ASP.NET MVC5 FreshFruit.WebSites.Official")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Krzysztof Osowicki")]
-[assembly: AssemblyProduct("ASP.NET_MVC5_Bootstrap3_3_1_LESS")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany("FreshFruit.WebSites.Official")]
+[assembly: AssemblyProduct("FreshFruit.WebSites.Official")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
