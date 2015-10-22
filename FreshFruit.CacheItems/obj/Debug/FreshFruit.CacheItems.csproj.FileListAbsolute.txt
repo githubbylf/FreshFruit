@@ -1,0 +1,5 @@
+E:\New Project\FreshFruit\FreshFruit.CacheItems\bin\Debug\FreshFruit.CacheItems.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItems\bin\Debug\FreshFruit.CacheItems.pdb
+E:\New Project\FreshFruit\FreshFruit.CacheItems\obj\Debug\FreshFruit.CacheItems.csprojResolveAssemblyReference.cache
+E:\New Project\FreshFruit\FreshFruit.CacheItems\obj\Debug\FreshFruit.CacheItems.dll
+E:\New Project\FreshFruit\FreshFruit.CacheItems\obj\Debug\FreshFruit.CacheItems.pdb

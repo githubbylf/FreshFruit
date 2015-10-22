@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="freshfruitModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--生成过程中发现错误:
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_email”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_mobile”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_name”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_real_name”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_password”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_salt”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_qestion”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_answer”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_qq”。
+警告 6006: 具有值“0”的方面“MaxLength”超出了方面说明所指定的范围 1-65535。已排除表“def.freshfruit.fruit_user”中的列“user_phone”。-->
+  <EntityType Name="fruit_user">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_sex" Type="bool" Nullable="false" />
+    <Property Name="user_birthday" Type="bigint" Nullable="false" />
+    <Property Name="user_reg_time" Type="int" Nullable="false" />
+    <Property Name="user_recommend_uid" Type="int" />
+    <Property Name="user_email_time" Type="int" />
+    <Property Name="Is_email_validated" Type="bit" Nullable="false" />
+    <Property Name="Is_delete" Type="bit" />
+  </EntityType>
+  <EntityType Name="fruit_user_address">
+    <Key>
+      <PropertyRef Name="Address_id" />
+    </Key>
+    <Property Name="Address_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Address_name" Type="longtext" Nullable="false" />
+    <Property Name="User_id" Type="int" Nullable="false" />
+    <Property Name="Consignee" Type="longtext" Nullable="false" />
+    <Property Name="Email" Type="longtext" Nullable="false" />
+    <Property Name="Country" Type="smallint" Nullable="false" />
+    <Property Name="Province" Type="smallint" Nullable="false" />
+    <Property Name="City" Type="smallint" Nullable="false" />
+    <Property Name="District" Type="smallint" Nullable="false" />
+    <Property Name="Address" Type="longtext" Nullable="false" />
+    <Property Name="Zipcode" Type="longtext" Nullable="false" />
+    <Property Name="Tel" Type="longtext" Nullable="false" />
+    <Property Name="Mobile" Type="longtext" Nullable="false" />
+    <Property Name="Sign_building" Type="longtext" Nullable="false" />
+    <Property Name="Best_time" Type="longtext" Nullable="false" />
+    <Property Name="IsEncryption" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="fruit_user_log">
+    <Key>
+      <PropertyRef Name="login_id" />
+    </Key>
+    <Property Name="login_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login_time" Type="int" Nullable="false" />
+    <Property Name="login_ip" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="fruit_user_points">
+    <Key>
+      <PropertyRef Name="points_id" />
+    </Key>
+    <Property Name="points_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="points_pay" Type="int" Nullable="false" />
+    <Property Name="points_rank" Type="int" Nullable="false" />
+    <Property Name="points_total" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="freshfruitModelStoreContainer">
+    <EntitySet Name="fruit_user" EntityType="Self.fruit_user" Schema="freshfruit" store:Type="Tables" />
+    <EntitySet Name="fruit_user_address" EntityType="Self.fruit_user_address" Schema="freshfruit" store:Type="Tables" />
+    <EntitySet Name="fruit_user_log" EntityType="Self.fruit_user_log" Schema="freshfruit" store:Type="Tables" />
+    <EntitySet Name="fruit_user_points" EntityType="Self.fruit_user_points" Schema="freshfruit" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
